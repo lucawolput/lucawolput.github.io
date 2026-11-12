@@ -1,0 +1,100 @@
+{
+  "categories": [
+    { "id": "publicidad", "name": { "es": "Publicidad", "en": "Advertising" } },
+    { "id": "estrategia", "name": { "es": "Estrategia de marca", "en": "Brand strategy" } },
+    { "id": "branding", "name": { "es": "Branding y redes sociales", "en": "Branding and social media" } }
+  ],
+  "types": {
+    "real": { "es": "Real", "en": "Real" },
+    "conceptual": { "es": "Conceptual", "en": "Concept" }
+  },
+  "projects": [
+    {
+      "id": "lemon-hijos",
+      "category": "publicidad",
+      "type": "real",
+      "year": "2023",
+      "brand": "Lemon & Hijos",
+      "title": { "es": "Ara ve Nadal, ara ve Barcelona", "en": "Ara ve Nadal, ara ve Barcelona" },
+      "cover": "assets/img/projects/lemon-hijos.webp",
+      "data_label": { "es": "Resultado", "en": "Result" },
+      "data": { "es": "Más de 43.000 visualizaciones en YouTube", "en": "Over 43,000 views on YouTube" }
+    },
+    {
+      "id": "lacoste-primer-set",
+      "category": "estrategia",
+      "type": "conceptual",
+      "year": "2026",
+      "brand": "Lacoste",
+      "title": { "es": "Primer Set, Lacoste Barcelona", "en": "Primer Set, Lacoste Barcelona" },
+      "cover": "assets/img/projects/lacoste-portada.webp",
+      "data_label": { "es": "Objetivo", "en": "Goal" },
+      "data": { "es": "2.000 nuevos Lacoste Members con un pop-up de tenis", "en": "2,000 new Lacoste Members through a tennis pop-up" }
+    },
+    {
+      "id": "lor-navidad",
+      "category": "publicidad",
+      "type": "conceptual",
+      "year": "2026",
+      "brand": "L'OR",
+      "title": { "es": "L'OR, un regalo caído del cielo", "en": "L'OR, a gift from the sky" },
+      "cover": "assets/img/projects/lor-portada.webp",
+      "data_label": { "es": "Formato", "en": "Format" },
+      "data": { "es": "Spot de Navidad de 30 segundos en siete escenas", "en": "30-second Christmas spot in seven scenes" }
+    },
+    {
+      "id": "daisy-market",
+      "category": "estrategia",
+      "type": "conceptual",
+      "year": "2026",
+      "brand": "Marc Jacobs",
+      "title": { "es": "Daisy Market", "en": "Daisy Market" },
+      "cover": "assets/img/projects/daisy-market.webp"
+    },
+    {
+      "id": "soft-landing",
+      "category": "estrategia",
+      "type": "conceptual",
+      "year": "2026",
+      "brand": "L'Oréal Paris",
+      "title": { "es": "Soft Landing", "en": "Soft Landing" },
+      "cover": "assets/img/projects/soft-landing.webp"
+    },
+    {
+      "id": "emma-pardos",
+      "category": "branding",
+      "type": "real",
+      "year": "2023",
+      "brand": "Emma Pardos Store",
+      "title": { "es": "Emma Pardos Store", "en": "Emma Pardos Store" },
+      "cover": ""
+    },
+    {
+      "id": "move-pilates",
+      "category": "branding",
+      "type": "real",
+      "year": "2026",
+      "brand": "Move Pilates BCN",
+      "title": { "es": "Move Pilates BCN", "en": "Move Pilates BCN" },
+      "cover": ""
+    },
+    {
+      "id": "lens-and-words",
+      "category": "branding",
+      "type": "real",
+      "year": "2026",
+      "brand": "Lens & Words",
+      "title": { "es": "Lens & Words", "en": "Lens & Words" },
+      "cover": ""
+    },
+    {
+      "id": "bon-gra",
+      "category": "branding",
+      "type": "conceptual",
+      "year": "2026",
+      "brand": "Bon Grà",
+      "title": { "es": "Bon Grà", "en": "Bon Grà" },
+      "cover": "assets/img/projects/bon-gra.webp"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luca Wolput | Marketing, branding & luxury</title>
+  <meta name="description" content="Portfolio de Luca Wolput: marketing, branding y estrategia de marca en Barcelona.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/cormorant-garamond-latin-300-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading">
+  <a class="skip small" href="#main">Saltar al contenido</a>
+
+  <!-- Cabecera de revista -->
+  <header class="chrome small">
+    <a href="#inicio" data-k="chrome.brand"></a>
+    <span class="chrome__hide" data-k="chrome.by"></span>
+    <span class="chrome__hide" data-k="chrome.field"></span>
+    <span class="chrome__hide" data-k="chrome.place"></span>
+    <span class="chrome__right">
+      <span class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="en">EN</button>
+      </span>
+      <button type="button" class="burger" aria-expanded="false" aria-controls="menu">
+        <span data-k="chrome.menu"></span><i aria-hidden="true"><b></b><b></b><b></b></i>
+      </button>
+    </span>
+  </header>
+
+  <!-- Menú: índice a pantalla completa -->
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__inner">
+      <div class="menu__top">
+        <span class="small menu__label" data-k="menu.label"></span>
+        <button type="button" class="menu__close small" data-k="chrome.close"></button>
+      </div>
+      <p class="menu__title" data-k="menu.title"></p>
+      <ol class="menu__list" id="menu-list"></ol>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- Portada -->
+    <section class="cover" id="inicio">
+      <p class="cover__first" data-k="name_first"></p>
+      <p class="cover__tag phrase"><span data-k="cover.tagline_before"></span> <em data-k="cover.tagline_accent"></em> <span data-k="cover.tagline_after"></span></p>
+      <h1 class="cover__word"><span class="sr-only" data-k="name_first"></span> <span data-k="name_last"></span></h1>
+      <figure class="cover__photo">
+        <img data-src="cover.photo" data-alt="cover.photo_alt" width="1100" height="1467" fetchpriority="high">
+        <figcaption class="small"><span data-k="cover.photo_caption_left"></span><span data-k="cover.photo_caption_right"></span></figcaption>
+      </figure>
+      <div class="cover__foot small"><span data-k="cover.foot_left"></span><span data-k="cover.foot_center"></span><span data-k="cover.foot_right"></span></div>
+    </section>
+
+    <!-- Sobre mí y cifras -->
+    <section class="about" id="sobre-mi">
+      <div>
+        <span class="small label" data-reveal data-k="about.label"></span>
+        <p class="phrase" data-reveal><span data-k="about.quote_before"></span> <em data-k="about.quote_accent"></em><span data-k="about.quote_after"></span></p>
+        <p class="about__text" data-reveal data-k="about.text"></p>
+      </div>
+      <ul class="facts" id="facts"></ul>
+    </section>
+
+    <!-- Marcas -->
+    <div class="brands">
+      <span class="small" data-k="brands.label"></span>
+      <ul id="brands"></ul>
+    </div>
+
+    <!-- Proyectos destacados -->
+    <section class="works" id="proyectos">
+      <div class="works__head">
+        <div><span class="small label" data-reveal data-k="works.label"></span><h2 class="title" data-reveal data-k="works.title"></h2></div>
+        <a class="btn" href="projects.html" data-reveal><span data-k="works.all"></span> <span class="btn__count" id="count-all"></span></a>
+      </div>
+      <ul class="cats" id="cats"></ul>
+      <div class="cards" id="cards"></div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+      <div class="contact__card" data-reveal>
+        <div><span class="small label" data-k="contact.label"></span><h2 class="title" data-k="contact.title"></h2></div>
+        <div class="contact__right">
+          <p data-k="contact.text"></p>
+          <div>
+            <a class="contact__mail" id="mail"></a>
+            <a class="contact__li small" id="linkedin" target="_blank" rel="noopener" data-k="contact.linkedin_label"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small"><span data-k="footer.left"></span><span data-k="footer.center"></span><span data-k="footer.right"></span></footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
