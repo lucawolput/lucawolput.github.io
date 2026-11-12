@@ -112,7 +112,7 @@ body.menu-open { overflow: hidden; }
 /* ---------- portada ---------- */
 .cover { position: relative; height: clamp(560px, 60vw, 860px); overflow: hidden; }
 .cover__first { position: absolute; left: calc(var(--pad) - 4px); top: clamp(18px, 2.4vw, 34px); font: italic 300 var(--s2)/1 var(--serif); color: var(--garnet); z-index: 3; }
-.cover__tag { position: absolute; right: var(--pad); top: clamp(30px, 4.2vw, 60px); width: min(300px, 32vw); text-align: right; font-style: italic; z-index: 3; }
+.cover__tag { position: absolute; right: var(--pad); top: clamp(30px, 4.2vw, 60px); width: min(230px, 20vw); text-align: right; font-style: italic; font-size: calc(var(--s3) * .7); z-index: 3; }
 .cover__word { position: absolute; left: 0; right: 0; top: 29%; text-align: center; font: 400 var(--s1)/.8 var(--display); white-space: nowrap; }
 .cover__photo { position: absolute; left: 50%; top: 10.7%; width: clamp(210px, 29vw, 420px); transform: translateX(-50%); z-index: 2; }
 .cover__photo img { width: 100%; aspect-ratio: 3 / 4.1; object-fit: cover; object-position: 45% 30%; filter: grayscale(1) contrast(1.05); }
@@ -234,7 +234,7 @@ body.is-switching main, body.is-switching .footer, body.is-switching .menu__inne
   .cover__word { order: 2; }
   .cover__tag { order: 4; }
   .cover__foot { order: 5; }
-  .cover__tag { width: auto; text-align: left; margin-top: 26px; }
+  .cover__tag { width: auto; text-align: left; margin-top: 26px; font-size: var(--s3); }
   .cover__foot { margin-top: 26px; flex-direction: column; gap: 6px; }
   .is-loading .cover__word { transform: none; }
   .works__head { flex-direction: column; align-items: flex-start; }

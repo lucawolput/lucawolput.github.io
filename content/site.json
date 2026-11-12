@@ -14,64 +14,209 @@
   "chrome": {
     "brand": "LW / Portfolio",
     "by": "By Luca Wolput Pardos",
-    "field": { "es": "Marketing, branding, luxury", "en": "Marketing, branding, luxury" },
+    "field": {
+      "es": "Marketing, branding, luxury",
+      "en": "Marketing, branding, luxury"
+    },
     "place": "Barcelona / 2026",
-    "menu": { "es": "Menú", "en": "Menu" },
-    "close": { "es": "Cerrar", "en": "Close" }
+    "menu": {
+      "es": "Menú",
+      "en": "Menu"
+    },
+    "close": {
+      "es": "Cerrar",
+      "en": "Close"
+    }
   },
   "menu": {
-    "label": { "es": "Menú / 2026", "en": "Menu / 2026" },
-    "title": { "es": "ÍNDICE", "en": "INDEX" },
+    "label": {
+      "es": "Menú / 2026",
+      "en": "Menu / 2026"
+    },
+    "title": {
+      "es": "ÍNDICE",
+      "en": "INDEX"
+    },
     "items": [
-      { "n": "01", "href": "#inicio", "title": { "es": "Inicio", "en": "Home" }, "desc": { "es": "Portada", "en": "Cover" } },
-      { "n": "02", "href": "#sobre-mi", "title": { "es": "Sobre mí", "en": "About me" }, "desc": { "es": "Identidad / formación / certificaciones", "en": "Identity / education / certifications" } },
-      { "n": "03", "href": "projects.html", "title": { "es": "Proyectos", "en": "Projects" }, "desc": { "es": "Publicidad / estrategia / branding", "en": "Advertising / strategy / branding" } },
-      { "n": "04", "href": "#contacto", "title": { "es": "Contacto", "en": "Contact" }, "desc": { "es": "Email / LinkedIn", "en": "Email / LinkedIn" } }
+      {
+        "n": "01",
+        "href": "#inicio",
+        "title": {
+          "es": "Inicio",
+          "en": "Home"
+        },
+        "desc": {
+          "es": "Portada",
+          "en": "Cover"
+        }
+      },
+      {
+        "n": "02",
+        "href": "#sobre-mi",
+        "title": {
+          "es": "Sobre mí",
+          "en": "About me"
+        },
+        "desc": {
+          "es": "Identidad / formación / certificaciones",
+          "en": "Identity / education / certifications"
+        }
+      },
+      {
+        "n": "03",
+        "href": "projects.html",
+        "title": {
+          "es": "Proyectos",
+          "en": "Projects"
+        },
+        "desc": {
+          "es": "Publicidad / estrategia / branding",
+          "en": "Advertising / strategy / branding"
+        }
+      },
+      {
+        "n": "04",
+        "href": "#contacto",
+        "title": {
+          "es": "Contacto",
+          "en": "Contact"
+        },
+        "desc": {
+          "es": "Email / LinkedIn",
+          "en": "Email / LinkedIn"
+        }
+      }
     ]
   },
   "cover": {
     "photo": "assets/img/luca.webp",
-    "photo_alt": { "es": "Luca Wolput en Barcelona", "en": "Luca Wolput in Barcelona" },
-    "photo_caption_left": "Barcelona, 2026",
-    "photo_caption_right": "Issue 01",
-    "tagline_before": { "es": "Ideas que conectan", "en": "Ideas that connect" },
-    "tagline_accent": { "es": "personas", "en": "people" },
-    "tagline_after": { "es": "y marcas.", "en": "and brands." },
-    "foot_left": "Issue 01",
-    "foot_center": { "es": "Marketing | Branding | Contenido creativo", "en": "Marketing | Branding | Creative content" },
+    "photo_alt": {
+      "es": "Luca Wolput en Barcelona",
+      "en": "Luca Wolput in Barcelona"
+    },
+    "photo_caption_left": "Barcelona",
+    "photo_caption_right": "Portfolio 2026",
+    "tagline_before": {
+      "es": "Ideas que conectan",
+      "en": "Ideas that connect"
+    },
+    "tagline_accent": {
+      "es": "personas",
+      "en": "people"
+    },
+    "tagline_after": {
+      "es": "y marcas.",
+      "en": "and brands."
+    },
+    "foot_left": "Luca Wolput Pardos",
+    "foot_center": {
+      "es": "Marketing | Branding | Contenido creativo",
+      "en": "Marketing | Branding | Creative content"
+    },
     "foot_right": "Selected works"
   },
   "about": {
-    "label": { "es": "01 / Sobre mí", "en": "01 / About me" },
-    "quote_before": { "es": "Me fascina cómo las marcas de lujo crean", "en": "I'm fascinated by how luxury brands create" },
-    "quote_accent": { "es": "deseo", "en": "desire" },
-    "quote_after": { "es": ", cuentan historias y construyen una identidad que va mucho más allá del producto.", "en": ", tell stories and build an identity that goes far beyond the product." },
+    "label": {
+      "es": "01 / Sobre mí",
+      "en": "01 / About me"
+    },
+    "quote_before": {
+      "es": "Me fascina cómo las marcas de lujo crean",
+      "en": "I'm fascinated by how luxury brands create"
+    },
+    "quote_accent": {
+      "es": "deseo",
+      "en": "desire"
+    },
+    "quote_after": {
+      "es": ", cuentan historias y construyen una identidad que va mucho más allá del producto.",
+      "en": ", tell stories and build an identity that goes far beyond the product."
+    },
     "text": {
       "es": "Estudiante de Business & Management en la Universitat Pompeu Fabra y graduada en Artes Digitales por La Salle – Universitat Ramon Llull. Uno creatividad y estrategia, y hablo español, catalán, inglés y francés.",
       "en": "Business & Management student at Universitat Pompeu Fabra and Digital Arts graduate from La Salle – Universitat Ramon Llull. I combine creativity and strategy, and I speak Spanish, Catalan, English and French."
     },
     "facts": [
-      { "value": "43.000", "label": { "es": "visualizaciones en YouTube del spot de Navidad de Barcelona", "en": "YouTube views on Barcelona's Christmas spot" } },
-      { "value": "1.000", "label": { "es": "visualizaciones en Instagram para Emma Pardos Store", "en": "Instagram views for Emma Pardos Store" } },
-      { "value": "9", "label": { "es": "proyectos de marca, reales y conceptuales", "en": "brand projects, real and conceptual" } },
-      { "value": "4", "label": { "es": "idiomas", "en": "languages" } }
+      {
+        "value": "43.000",
+        "label": {
+          "es": "visualizaciones en YouTube del spot de Navidad de Barcelona",
+          "en": "YouTube views on Barcelona's Christmas spot"
+        }
+      },
+      {
+        "value": "1.000",
+        "label": {
+          "es": "visualizaciones en Instagram para Emma Pardos Store",
+          "en": "Instagram views for Emma Pardos Store"
+        }
+      },
+      {
+        "value": "9",
+        "label": {
+          "es": "proyectos de marca, reales y conceptuales",
+          "en": "brand projects, real and conceptual"
+        }
+      },
+      {
+        "value": "4",
+        "label": {
+          "es": "idiomas",
+          "en": "languages"
+        }
+      }
     ]
   },
   "brands": {
-    "label": { "es": "Marcas con las que he trabajado o para las que he creado campañas", "en": "Brands I've worked with or created campaigns for" },
-    "list": ["Ajuntament de Barcelona", "Lemon & Hijos", "Emma Pardos Store", "Lacoste", "L'OR", "Marc Jacobs"]
+    "label": {
+      "es": "Marcas con las que he trabajado o para las que he creado campañas",
+      "en": "Brands I've worked with or created campaigns for"
+    },
+    "list": [
+      "Ajuntament de Barcelona",
+      "Lemon & Hijos",
+      "Emma Pardos Store",
+      "Lacoste",
+      "L'OR",
+      "Marc Jacobs"
+    ]
   },
   "works": {
-    "label": { "es": "02 / Proyectos", "en": "02 / Projects" },
-    "title": { "es": "PROYECTOS DESTACADOS", "en": "SELECTED WORKS" },
-    "all": { "es": "Ver todos los proyectos", "en": "See all projects" },
-    "count_word": { "es": "proyectos", "en": "projects" },
-    "view": { "es": "Ver proyecto", "en": "View project" },
-    "featured": ["lemon-hijos", "lacoste-primer-set", "lor-navidad"]
+    "label": {
+      "es": "02 / Proyectos",
+      "en": "02 / Projects"
+    },
+    "title": {
+      "es": "PROYECTOS DESTACADOS",
+      "en": "SELECTED WORKS"
+    },
+    "all": {
+      "es": "Ver todos los proyectos",
+      "en": "See all projects"
+    },
+    "count_word": {
+      "es": "proyectos",
+      "en": "projects"
+    },
+    "view": {
+      "es": "Ver proyecto",
+      "en": "View project"
+    },
+    "featured": [
+      "lemon-hijos",
+      "lacoste-primer-set",
+      "lor-navidad"
+    ]
   },
   "contact": {
-    "label": { "es": "03 / Contacto", "en": "03 / Contact" },
-    "title": { "es": "¿HABLAMOS?", "en": "LET'S TALK" },
+    "label": {
+      "es": "03 / Contacto",
+      "en": "03 / Contact"
+    },
+    "title": {
+      "es": "¿HABLAMOS?",
+      "en": "LET'S TALK"
+    },
     "text": {
       "es": "Busco seguir creciendo en marketing y branding. Si estás creando algo, me encantará escucharte.",
       "en": "I'm looking to grow in marketing and branding. If you're building something, I'd love to hear about it."
