@@ -177,6 +177,8 @@ body.menu-open { overflow: hidden; }
 .contact { min-height: clamp(520px, 47vw, 680px); display: grid; place-items: center; padding: 60px var(--pad); background: var(--stone) center / cover no-repeat; }
 .contact__card { width: min(1080px, 100%); display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; padding: clamp(32px, 3.9vw, 56px); background: var(--garnet); color: var(--paper); box-shadow: 0 50px 70px -40px rgba(0, 0, 0, .6); }
 .contact__card .label { color: #E9C9CF; }
+.contact__card .title { font-size: min(var(--s2), 16.5vw); }
+.contact__card > * { min-width: 0; }
 .contact__right { display: grid; align-content: space-between; gap: 30px; }
 .contact__mail { display: inline-block; font: italic 300 var(--s3)/1.1 var(--serif); background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; padding-bottom: 4px; transition: background-size .6s var(--ease); white-space: nowrap; }
 .contact__mail:hover { background-size: 0 1px; background-position: 100% 100%; }
@@ -201,12 +203,15 @@ body.menu-open { overflow: hidden; }
 .ab-hero__photo img { width: 100%; aspect-ratio: 3 / 4.1; object-fit: cover; object-position: 45% 30%; box-shadow: 0 30px 50px -34px rgba(23, 21, 19, .55); }
 .ab-hero__photo figcaption { display: flex; justify-content: space-between; margin-top: 10px; }
 .page-about .btn { cursor: pointer; }
+.ab-hero > * { min-width: 0; }
+@media (max-width: 400px) { .btn { white-space: normal; flex-wrap: wrap; gap: 10px; } }
 
 .ab-block { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2.1fr); gap: 36px clamp(32px, 5vw, 72px); padding: clamp(56px, 6vw, 88px) var(--pad); border-top: 1px solid var(--ink); }
 .ab-block:nth-of-type(odd) { background: #fff; }
 .ab-block--last { padding-bottom: clamp(72px, 7.6vw, 110px); }
 .ab-other { margin-top: 48px; }
-.ab-block__head { grid-column: 1 / -1; }
+.ab-block__head { grid-column: 1 / -1; min-width: 0; }
+.ab-block__head .title { font-size: min(var(--s2), 11.5vw); }
 .ab-block__body { grid-column: 2; }
 
 .rows { border-top: 1px solid var(--ink); }
@@ -319,7 +324,7 @@ body.is-switching main, body.is-switching .footer, body.is-switching .menu__inne
    PÁGINA PROYECTOS
    ========================================================= */
 .pj-head { padding: clamp(48px, 5.5vw, 80px) var(--pad) 40px; }
-.pj-head__title { font: 400 var(--s1)/.8 var(--display); padding-top: .2em; }
+.pj-head__title { font: 400 min(var(--s1), 20vw)/.8 var(--display); padding-top: .2em; }
 .pj-head__intro { max-width: 34ch; margin: 28px 0 0 auto; }
 
 .filters { display: flex; flex-wrap: wrap; gap: 0; margin: 0 var(--pad); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
