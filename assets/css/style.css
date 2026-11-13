@@ -195,7 +195,7 @@ body.menu-open { overflow: hidden; }
    ========================================================= */
 .ab-hero { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(40px, 6.6vw, 96px); align-items: start; padding: clamp(48px, 5.5vw, 80px) var(--pad) clamp(64px, 7vw, 100px); }
 .ab-hero__title { font: 400 var(--s2)/.86 var(--display); margin-bottom: 36px; }
-.ab-hero__intro { margin-bottom: 28px; max-width: 26ch; }
+.ab-hero__intro { margin-bottom: 28px; max-width: none; text-wrap: balance; }
 .ab-hero__bio p { max-width: 60ch; margin-bottom: 16px; }
 .ab-hero__bio p:last-child { margin-bottom: 36px; }
 .ab-hero__photo { position: sticky; top: 90px; }
@@ -324,7 +324,7 @@ body.is-switching main, body.is-switching .footer, body.is-switching .menu__inne
    ========================================================= */
 .pj-head { padding: clamp(48px, 5.5vw, 80px) var(--pad) 40px; }
 .pj-head__title { font: 400 min(var(--s1), 20vw)/.8 var(--display); padding-top: .2em; }
-.pj-head__intro { max-width: 34ch; margin: 28px 0 0 auto; }
+.pj-head__intro { max-width: 52ch; margin: 28px 0 0 auto; text-wrap: balance; }
 
 .filters { display: flex; flex-wrap: wrap; gap: 0; margin: 0 var(--pad); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
 .filters button { position: relative; display: flex; align-items: baseline; gap: 10px; padding: 20px 28px 18px 0; margin-right: 28px; font: 300 var(--s3)/1 var(--serif); color: var(--taupe); transition: color .4s var(--ease); }
@@ -362,7 +362,7 @@ body.is-switching main, body.is-switching .footer, body.is-switching .menu__inne
 .pd-back { display: inline-block; margin-bottom: 36px; padding-bottom: 3px; background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; transition: background-size .6s var(--ease); }
 .pd-back:hover { background-size: 0 1px; background-position: 100% 100%; }
 .pd-hero__brand { font: 400 var(--s1)/.9 var(--display); padding-top: .2em; overflow-wrap: anywhere; }
-.pd-hero__title { margin: 22px 0 48px; max-width: 30ch; }
+.pd-hero__title { margin: 22px 0 48px; max-width: 52ch; text-wrap: balance; }
 .pd-hero__title em { color: var(--garnet); }
 .pd-hero__grid { display: grid; grid-template-columns: 1.6fr 1fr; gap: clamp(32px, 4vw, 56px); align-items: start; }
 .pd-cover { position: relative; background: var(--blush); display: grid; place-items: center; box-shadow: 0 30px 50px -34px rgba(23, 21, 19, .55); }
