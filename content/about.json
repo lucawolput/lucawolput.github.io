@@ -1,0 +1,103 @@
+{
+  "label": { "es": "02 / Sobre mí", "en": "02 / About me" },
+  "title": { "es": "SOBRE MÍ", "en": "ABOUT ME" },
+  "photo": "assets/img/luca.webp",
+  "photo_alt": { "es": "Luca Wolput en Barcelona", "en": "Luca Wolput in Barcelona" },
+  "photo_caption_left": "Luca Wolput Pardos",
+  "photo_caption_right": "Barcelona",
+  "intro": {
+    "es": "Pienso las marcas desde la creatividad, pero también desde los números, el consumidor y el negocio.",
+    "en": "I think about brands through creativity, but also through numbers, consumers and business."
+  },
+  "bio": [
+    {
+      "es": "Soy Luca Wolput Pardos, estudiante de Ciencias Empresariales – Management en la Universitat Pompeu Fabra y graduada en Artes Digitales por La Salle – Universitat Ramon Llull. Esa doble formación define cómo trabajo.",
+      "en": "I'm Luca Wolput Pardos, a Business Administration and Management student at Universitat Pompeu Fabra and a Digital Arts graduate from La Salle – Universitat Ramon Llull. That double background defines how I work."
+    },
+    {
+      "es": "Me atrae el marketing en todas sus formas, aunque mi gran pasión es el lujo: cómo una marca crea deseo, cuenta historias y construye una identidad que va mucho más allá del producto. Me interesa especialmente la psicología del consumidor, y cómo las emociones, los hábitos y la percepción deciden qué marcas recordamos.",
+      "en": "I'm drawn to every side of marketing, but luxury is my biggest passion: how a brand creates desire, tells stories and builds an identity that goes far beyond the product. I'm especially interested in consumer psychology, and how emotions, habits and perception decide which brands we remember."
+    },
+    {
+      "es": "He trabajado en proyectos reales de branding, contenido y publicidad, como el spot de Navidad del Ajuntament de Barcelona con Lemon & Hijos, y desarrollo campañas conceptuales para marcas como Lacoste, L'OR o Marc Jacobs. Busco incorporarme a un equipo de marketing y branding, idealmente en el sector del lujo.",
+      "en": "I've worked on real branding, content and advertising projects, such as Barcelona City Council's Christmas spot with Lemon & Hijos, and I develop conceptual campaigns for brands like Lacoste, L'OR and Marc Jacobs. I'm looking to join a marketing and branding team, ideally in the luxury sector."
+    }
+  ],
+  "cv_button": { "es": "Descargar CV", "en": "Download CV" },
+  "cv_file": { "es": "assets/cv/CV_Luca_Wolput_Pardos_ES.pdf", "en": "assets/cv/CV_Luca_Wolput_Pardos.pdf" },
+  "cv_note": { "es": "PDF, una página", "en": "PDF, one page" },
+
+  "experience_title": { "es": "EXPERIENCIA", "en": "EXPERIENCE" },
+  "experience_label": { "es": "Marketing y branding", "en": "Marketing and branding" },
+  "experience": [
+    {
+      "years": { "es": "2026 – Actualidad", "en": "2026 – Present" },
+      "company": "Move Pilates BCN",
+      "role": { "es": "Redes sociales y branding (freelance)", "en": "Social media and branding (freelance)" },
+      "points": [
+        { "es": "Lidero el rebranding y el lanzamiento del nuevo Instagram de un estudio de pilates de Barcelona.", "en": "Leading the rebranding and new Instagram launch of a Barcelona pilates studio." }
+      ]
+    },
+    {
+      "years": { "es": "2026 – Actualidad", "en": "2026 – Present" },
+      "company": "Lens & Words",
+      "role": { "es": "Fundadora y creadora de contenido", "en": "Founder and content creator" },
+      "points": [
+        { "es": "Cuenta editorial de Instagram que analiza campañas de marketing y estrategias de marca.", "en": "Editorial Instagram account analysing marketing campaigns and brand strategies." }
+      ]
+    },
+    {
+      "years": { "es": "2023", "en": "2023" },
+      "company": "Lemon & Hijos",
+      "role": { "es": "Asistente creativa", "en": "Creative assistant" },
+      "points": [
+        { "es": "Desarrollé el storyboard del spot de Navidad 2023 del Ajuntament de Barcelona, \"Ara ve Nadal, ara ve Barcelona\".", "en": "Developed the storyboard for Barcelona City Council's 2023 Christmas spot, \"Ara ve Nadal, ara ve Barcelona\"." },
+        { "es": "Aporté ideas en la conceptualización de campañas publicitarias y producciones audiovisuales.", "en": "Contributed ideas to the concept development of advertising campaigns and audiovisual productions." }
+      ],
+      "data": { "es": "más de 43.000 visualizaciones", "en": "over 43,000 views" }
+    },
+    {
+      "years": { "es": "2023", "en": "2023" },
+      "company": "Emma Pardos Store",
+      "role": { "es": "Asistente de marketing y branding (prácticas)", "en": "Marketing and branding assistant (internship)" },
+      "points": [
+        { "es": "Colaboré en el desarrollo de la identidad de marca y propuse ideas de campaña alineadas con su posicionamiento.", "en": "Contributed to the brand identity and pitched campaign ideas aligned with its positioning." },
+        { "es": "Creé contenido para redes sociales y apoyé acciones de branding.", "en": "Created social media content and supported branding actions." }
+      ],
+      "data": { "es": "más de 1.000 visualizaciones", "en": "over 1,000 views" }
+    }
+  ],
+  "other_label": { "es": "Otros ámbitos", "en": "Other fields" },
+  "other": [
+    {
+      "years": { "es": "abr. 2025 – jul. 2025", "en": "Apr 2025 – Jul 2025" },
+      "company": "UNIQLO",
+      "role": { "es": "Asistente de ventas", "en": "Sales assistant" },
+      "points": [
+        { "es": "Asesoramiento personalizado a clientela internacional en una tienda de alto volumen.", "en": "Personalised advice for an international clientele in a high-volume store." },
+        { "es": "Trabajo orientado a KPIs de venta y visual merchandising según los estándares de la marca.", "en": "Worked towards sales KPIs and handled visual merchandising in line with brand standards." }
+      ]
+    }
+  ],
+
+  "education_title": { "es": "FORMACIÓN", "en": "EDUCATION" },
+  "education": [
+    { "years": { "es": "2025 – Actualidad", "en": "2025 – Present" }, "school": "Universitat Pompeu Fabra", "degree": { "es": "Ciencias Empresariales – Management", "en": "Business Administration and Management" }, "note": { "es": "Asignaturas cursadas en inglés", "en": "Selected courses in English" } },
+    { "years": { "es": "2024 – 2025", "en": "2024 – 2025" }, "school": "McGill School of Continuing Studies", "degree": { "es": "Curso de francés, nivel intermedio", "en": "French language course, intermediate" }, "note": { "es": "Montreal", "en": "Montreal" } },
+    { "years": { "es": "2020 – 2023", "en": "2020 – 2023" }, "school": "La Salle – Universitat Ramon Llull", "degree": { "es": "Grado en Artes Digitales", "en": "Bachelor's degree in Digital Arts" }, "note": { "es": "Beca por actividades extracurriculares", "en": "Scholarship for extracurricular activities" } }
+  ],
+
+  "cert_title": { "es": "CERTIFICACIONES", "en": "CERTIFICATIONS" },
+  "certifications": [
+    { "name": "LVMH Inside Program", "issuer": "LVMH", "status": { "es": "En curso", "en": "In progress" } },
+    { "name": { "es": "Marketing digital", "en": "Digital marketing" }, "issuer": "HubSpot Academy", "status": "" },
+    { "name": { "es": "Crea contenido irresistible", "en": "Create irresistible content" }, "issuer": "Canva", "status": "" }
+  ],
+
+  "skills_title": { "es": "COMPETENCIAS", "en": "SKILLS" },
+  "skills": [
+    { "label": { "es": "Marketing", "en": "Marketing" }, "items": { "es": "Branding, marketing digital, creación de contenido, storytelling, redes sociales, comunicación, gestión de proyectos", "en": "Branding, digital marketing, content creation, storytelling, social media, communication, project management" } },
+    { "label": { "es": "Herramientas", "en": "Tools" }, "items": { "es": "Adobe Photoshop, Procreate, Canva, CapCut, Microsoft Excel", "en": "Adobe Photoshop, Procreate, Canva, CapCut, Microsoft Excel" } },
+    { "label": { "es": "Idiomas", "en": "Languages" }, "items": { "es": "Español y catalán (nativos), inglés (avanzado), francés (intermedio)", "en": "Spanish and Catalan (native), English (fluent), French (intermediate)" } }
+  ]
+}

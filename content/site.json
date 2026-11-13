@@ -40,7 +40,7 @@
     "items": [
       {
         "n": "01",
-        "href": "#inicio",
+        "href": "index.html",
         "title": {
           "es": "Inicio",
           "en": "Home"
@@ -52,7 +52,7 @@
       },
       {
         "n": "02",
-        "href": "#sobre-mi",
+        "href": "about.html",
         "title": {
           "es": "Sobre mí",
           "en": "About me"
@@ -117,8 +117,8 @@
   },
   "about": {
     "label": {
-      "es": "01 / Sobre mí",
-      "en": "01 / About me"
+      "es": "02 / Sobre mí",
+      "en": "02 / About me"
     },
     "quote_before": {
       "es": "Me fascina cómo las marcas de lujo crean",
@@ -165,7 +165,11 @@
           "en": "languages"
         }
       }
-    ]
+    ],
+    "more": {
+      "es": "Leer más sobre mí",
+      "en": "Read more about me"
+    }
   },
   "brands": {
     "label": {
@@ -183,8 +187,8 @@
   },
   "works": {
     "label": {
-      "es": "02 / Proyectos",
-      "en": "02 / Projects"
+      "es": "03 / Proyectos",
+      "en": "03 / Projects"
     },
     "title": {
       "es": "PROYECTOS DESTACADOS",
@@ -210,8 +214,8 @@
   },
   "contact": {
     "label": {
-      "es": "03 / Contacto",
-      "en": "03 / Contact"
+      "es": "04 / Contacto",
+      "en": "04 / Contact"
     },
     "title": {
       "es": "¿HABLAMOS?",
