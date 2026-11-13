@@ -195,10 +195,11 @@
     const g = p.gallery || [];
     fill('pd-gallery', g.length ? `
       <span class="small" data-reveal>${esc(tr(f.gallery))}</span>
+      ${p.gallery_intro ? `<p class="pd-gallery__intro" data-reveal>${esc(tr(p.gallery_intro))}</p>` : ''}
       <div class="pd-gallery__grid ${g.length === 1 ? 'is-single' : ''}" id="pd-ggrid">${g.map(x => `
         <figure data-reveal-img><img src="${esc(x.src)}" alt="${esc(tr(x.caption))}" loading="lazy"><figcaption class="small">${esc(tr(x.caption))}</figcaption></figure>`).join('')}</div>` : '');
     const gg = $('pd-ggrid');
-    if (gg) { const first = gg.querySelector('img'); const mark = () => { if (first.naturalWidth / first.naturalHeight < 1 && g.length > 1) gg.classList.add('is-tall'); }; first.complete ? mark() : first.addEventListener('load', mark); }
+    if (gg) { const first = gg.querySelector('img'); const mark = () => { if (first.naturalWidth / first.naturalHeight < 1 && g.length > 1) { gg.classList.add('is-tall'); if (g.length === 4) gg.classList.add('is-four'); } }; first.complete ? mark() : first.addEventListener('load', mark); }
 
     $('pd-note').textContent = tr(p.note) || '';
 

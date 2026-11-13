@@ -556,8 +556,8 @@
         "en": "An account analysing the marketing campaigns and moves I find most interesting, across every field, with an elegant magazine look and a playful touch. I published the first post in summer to push myself to start; then came the first feed tests until I found my style and the format that works best."
       },
       "next_steps": {
-        "es": "Ahora publico con constancia tres veces por semana. Las cifras de crecimiento se irán añadiendo aquí.",
-        "en": "I now post consistently three times a week. Growth figures will be added here."
+        "es": "La última publicación, \"Three Christmas films, one verdict\", es la que marca la estética de las próximas: es la que más interacción ha tenido y en la que he encontrado el estilo que más me gusta. Ahora publico con constancia tres veces por semana.",
+        "en": "The latest post, \"Three Christmas films, one verdict\", sets the look for the ones to come: it's had the most engagement and it's where I found the style I like most. I now post consistently three times a week."
       },
       "link": {
         "url": "https://www.instagram.com/lensandwords.lw/",
@@ -575,7 +575,40 @@
           }
         }
       ],
-      "gallery": []
+      "gallery": [
+        {
+          "src": "assets/img/projects/lens-and-words-02.webp",
+          "caption": {
+            "es": "Diapositiva 2: Gucci",
+            "en": "Slide 2: Gucci"
+          }
+        },
+        {
+          "src": "assets/img/projects/lens-and-words-03.webp",
+          "caption": {
+            "es": "Diapositiva 3: Levi's",
+            "en": "Slide 3: Levi's"
+          }
+        },
+        {
+          "src": "assets/img/projects/lens-and-words-04.webp",
+          "caption": {
+            "es": "Diapositiva 4: Tiffany & Co.",
+            "en": "Slide 4: Tiffany & Co."
+          }
+        },
+        {
+          "src": "assets/img/projects/lens-and-words-05.webp",
+          "caption": {
+            "es": "Diapositiva 5: la conclusión",
+            "en": "Slide 5: the takeaway"
+          }
+        }
+      ],
+      "gallery_intro": {
+        "es": "Todas las imágenes son de la misma publicación, el carrusel que marca la estética de las próximas.",
+        "en": "All images come from the same post, the carousel that sets the look for the next ones."
+      }
     },
     {
       "id": "daisy-market",
