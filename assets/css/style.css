@@ -437,3 +437,23 @@ body.is-switching main, body.is-switching .footer, body.is-switching .menu__inne
   .pd-nav { grid-template-columns: 1fr; }
   .pd-nav a + a { text-align: left; border-left: 0; border-top: 1px solid var(--stone); padding-left: 0; }
 }
+
+/* =========================================================
+   VISOR DE IMÁGENES (al hacer clic en una imagen)
+   ========================================================= */
+.zoomable { cursor: zoom-in; }
+.lb { position: fixed; inset: 0; z-index: 60; display: grid; grid-template-rows: auto 1fr auto; background: rgba(23, 21, 19, .975); color: var(--paper); opacity: 0; visibility: hidden; transition: opacity .45s var(--ease), visibility 0s .45s; }
+.lb.is-open { opacity: 1; visibility: visible; transition: opacity .45s var(--ease), visibility 0s; }
+.lb__top { display: flex; justify-content: space-between; align-items: center; padding: 18px var(--pad); }
+.lb__count { opacity: .7; }
+.lb__close, .lb__nav { font: 500 var(--s5)/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--paper); padding: 10px 0; position: relative; }
+.lb__close::after, .lb__nav::after { content: ""; position: absolute; left: 0; right: 0; bottom: 4px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform .4s var(--ease); }
+.lb__close:hover::after, .lb__nav:hover::after { transform: scaleX(1); }
+.lb__stage { position: relative; display: grid; place-items: center; padding: 0 var(--pad); min-height: 0; }
+.lb__img { max-width: min(92vw, 1500px); max-height: calc(100vh - 150px); width: auto; height: auto; object-fit: contain; box-shadow: 0 40px 80px -40px rgba(0, 0, 0, .8); transition: opacity .5s var(--ease), filter .6s var(--ease), transform .6s var(--ease); }
+.lb:not(.is-open) .lb__img, .lb__img.is-changing { opacity: 0; filter: blur(12px); transform: scale(.97); }
+.lb__bottom { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 16px var(--pad) 22px; }
+.lb__caption { text-align: center; flex: 1; opacity: .85; }
+.lb__nav[hidden] { visibility: hidden; display: block; }
+body.lb-open { overflow: hidden; }
+@media (max-width: 640px) { .lb__img { max-height: calc(100vh - 170px); } .lb__bottom { flex-wrap: wrap; } .lb__caption { order: -1; flex-basis: 100%; } }

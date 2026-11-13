@@ -255,6 +255,65 @@
 
   render();
 
+  /* ---------- visor de imágenes ---------- */
+  const lbText = { es: { close: 'Cerrar', prev: 'Anterior', next: 'Siguiente' }, en: { close: 'Close', prev: 'Previous', next: 'Next' } };
+  const lb = document.createElement('div');
+  lb.className = 'lb'; lb.setAttribute('role', 'dialog'); lb.setAttribute('aria-modal', 'true'); lb.setAttribute('aria-hidden', 'true');
+  lb.innerHTML = `
+    <div class="lb__top"><span class="small lb__count"></span><button type="button" class="lb__close"></button></div>
+    <div class="lb__stage"><img class="lb__img" alt=""></div>
+    <div class="lb__bottom"><button type="button" class="lb__nav" data-dir="-1"></button><p class="small lb__caption"></p><button type="button" class="lb__nav" data-dir="1"></button></div>`;
+  document.body.appendChild(lb);
+  const lbImg = lb.querySelector('.lb__img');
+  let group = [], idx = 0, lastFocus = null;
+  const zoomSel = '.pd-cover img, .pd-gallery figure img, .ab-hero__photo img, .cover__photo img';
+  const markZoomable = () => document.querySelectorAll(zoomSel).forEach(i => i.classList.add('zoomable'));
+  const captionOf = img => img.closest('figure')?.querySelector('figcaption')?.textContent.trim() || img.alt || '';
+  function show(i, animate) {
+    idx = (i + group.length) % group.length;
+    const img = group[idx];
+    const t = lbText[lang] || lbText.es;
+    lb.querySelector('.lb__close').textContent = t.close;
+    const [prev, next] = lb.querySelectorAll('.lb__nav');
+    prev.textContent = t.prev; next.textContent = t.next;
+    prev.hidden = next.hidden = group.length < 2;
+    lb.querySelector('.lb__count').textContent = group.length > 1 ? `${idx + 1} / ${group.length}` : '';
+    lb.querySelector('.lb__caption').textContent = captionOf(img);
+    const swap = () => { lbImg.src = img.currentSrc || img.src; lbImg.alt = img.alt || ''; lbImg.onload = () => lbImg.classList.remove('is-changing'); if (lbImg.complete) lbImg.classList.remove('is-changing'); };
+    if (animate) { lbImg.classList.add('is-changing'); setTimeout(swap, 220); } else swap();
+  }
+  function openLb(img) {
+    const scope = img.closest('.pd') || img.closest('figure');
+    group = [...(scope ? scope.querySelectorAll(zoomSel) : [img])].filter(x => x.matches(zoomSel));
+    if (!group.length) group = [img];
+    lastFocus = document.activeElement;
+    show(group.indexOf(img), false);
+    lb.classList.add('is-open'); lb.setAttribute('aria-hidden', 'false'); document.body.classList.add('lb-open');
+    setTimeout(() => lb.querySelector('.lb__close').focus(), 50);
+  }
+  function closeLb() {
+    lb.classList.remove('is-open'); lb.setAttribute('aria-hidden', 'true'); document.body.classList.remove('lb-open');
+    if (lastFocus) lastFocus.focus();
+  }
+  document.addEventListener('click', e => {
+    const img = e.target.closest(zoomSel);
+    if (img && !e.target.closest('a')) { e.preventDefault(); openLb(img); }
+  });
+  lb.querySelector('.lb__close').addEventListener('click', closeLb);
+  lb.querySelectorAll('.lb__nav').forEach(b => b.addEventListener('click', () => show(idx + Number(b.dataset.dir), true)));
+  lb.addEventListener('click', e => { if (e.target === lb || e.target.classList.contains('lb__stage')) closeLb(); });
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('is-open')) return;
+    if (e.key === 'Escape') closeLb();
+    if (e.key === 'ArrowRight' && group.length > 1) show(idx + 1, true);
+    if (e.key === 'ArrowLeft' && group.length > 1) show(idx - 1, true);
+  });
+  let touchX = null;
+  lb.addEventListener('touchstart', e => { touchX = e.touches[0].clientX; }, { passive: true });
+  lb.addEventListener('touchend', e => { if (touchX == null || group.length < 2) return; const dx = e.changedTouches[0].clientX - touchX; if (Math.abs(dx) > 50) show(idx + (dx < 0 ? 1 : -1), true); touchX = null; });
+  markZoomable();
+  new MutationObserver(markZoomable).observe(document.getElementById('main'), { childList: true, subtree: true });
+
   /* ---------- entrada de la página ---------- */
   const start = () => requestAnimationFrame(() => requestAnimationFrame(() => document.body.classList.remove('is-loading')));
   const hero = document.querySelector('.cover__photo img');
