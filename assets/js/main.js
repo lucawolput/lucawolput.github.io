@@ -50,7 +50,7 @@
     $('count-all').textContent = data.projects.length;
     fill('cats', data.categories.map(c => {
       const n = data.projects.filter(p => p.category === c.id).length;
-      return `<li data-reveal><a href="projects.html?cat=${esc(c.id)}"><span class="phrase">${esc(tr(c.name))}</span><span class="small">${n} ${esc(word)}</span></a></li>`;
+      return `<li data-reveal><a href="projects.html#${esc(c.id)}"><span class="phrase">${esc(tr(c.name))}</span><span class="small">${n} ${esc(word)}</span></a></li>`;
     }).join(''));
 
     fill('cards', site.works.featured.map(id => {
@@ -59,7 +59,7 @@
       const cat = data.categories.find(c => c.id === p.category);
       return `
         <article class="card" data-reveal>
-          <a href="projects.html#${esc(p.id)}">
+          <a href="project.html#${esc(p.id)}">
             <figure class="card__img" data-reveal-img><img src="${esc(p.cover)}" alt="${esc(p.brand)}" loading="lazy"><span class="card__view small">${esc(tr(site.works.view))}</span></figure>
             <p class="card__meta small"><span>${esc(tr(cat?.name))}</span><span>${esc(tr(data.types[p.type]))}, ${esc(p.year)}</span></p>
             <h3 class="phrase">${esc(tr(p.title))}</h3>
@@ -107,7 +107,114 @@
     fill('skills', about.skills.map(s => `<li data-reveal><span class="small">${esc(tr(s.label))}</span><p>${esc(tr(s.items))}</p></li>`).join(''));
   }
 
-  function render() { renderCommon(); renderHome(); renderAbout(); observe(); }
+  /* ---------- proyectos: piezas comunes ---------- */
+  const catName = id => tr(data.categories.find(c => c.id === id)?.name);
+  const typeTag = p => tr(data.types[p.type]);
+  const tcover = p => {
+    const t = p.cover_type || {};
+    return `<div class="tcover" style="--tc-bg:${esc(t.bg)};--tc-fg:${esc(t.fg)};--tc-accent:${esc(t.accent)}"><span class="tcover__word">${esc(t.word || p.brand)}</span><span class="tcover__line">${esc(tr(t.line) || '')}</span></div>`;
+  };
+  const media = (p, cls) => p.cover
+    ? `<img src="${esc(p.cover)}" alt="${esc(p.brand)}" loading="lazy" ${cls ? `class="${cls}"` : ''} onload="if(this.naturalWidth/this.naturalHeight>1.5)this.classList.add('is-wide')">`
+    : tcover(p);
+
+  function renderProjects() {
+    if (!document.body.classList.contains('page-projects')) return;
+    document.querySelectorAll('[data-p]').forEach(n => { const v = tr(get(data, n.dataset.p)); if (v != null) n.textContent = v; });
+    document.title = `${tr(data.page.title).charAt(0)}${tr(data.page.title).slice(1).toLowerCase()} | Luca Wolput`;
+    const active = decodeURIComponent(location.hash.slice(1)) || 'todos';
+    const opts = [{ id: 'todos', name: data.page.all }, ...data.categories];
+    fill('filters', opts.map(o => {
+      const n = o.id === 'todos' ? data.projects.length : data.projects.filter(p => p.category === o.id).length;
+      return `<button type="button" data-filter="${esc(o.id)}" aria-pressed="${o.id === active}">${esc(tr(o.name))} <span class="small">${n}</span></button>`;
+    }).join(''));
+    const list = active === 'todos' ? data.projects : data.projects.filter(p => p.category === active);
+    fill('grid', list.map(p => `
+      <article class="pc" data-reveal>
+        <a href="project.html#${esc(p.id)}">
+          <figure class="pc__media" data-reveal-img>${media(p)}<span class="pc__type small ${p.type === 'ongoing' ? 'is-ongoing' : ''}">${esc(typeTag(p))}</span><span class="card__view small">${esc(tr(data.page.view))}</span></figure>
+          <p class="card__meta small"><span>${esc(catName(p.category))}</span><span>${esc(p.brand)}, ${esc(p.year)}</span></p>
+          <h3 class="phrase">${esc(tr(p.title))}</h3>
+          ${p.data ? `<p class="card__data"><span class="small">${esc(tr(p.data_label))}</span><span>${esc(tr(p.data))}</span></p>` : ''}
+        </a>
+      </article>`).join(''));
+    document.querySelectorAll('[data-filter]').forEach(b => b.addEventListener('click', () => {
+      const id = b.dataset.filter;
+      history.replaceState(null, '', id === 'todos' ? location.pathname : '#' + id);
+      const g = $('grid'); g.classList.add('is-fading');
+      setTimeout(() => { renderProjects(); observe(); g.classList.remove('is-fading'); }, 300);
+    }));
+  }
+
+  function renderProject() {
+    if (!document.body.classList.contains('page-project')) return;
+    const f = data.page.fields;
+    const id = decodeURIComponent(location.hash.slice(1));
+    const i = Math.max(0, data.projects.findIndex(p => p.id === id));
+    const p = data.projects[i];
+    document.querySelectorAll('[data-p]').forEach(n => { const v = tr(get(data, n.dataset.p)); if (v != null) n.textContent = v; });
+    document.title = `${p.brand} | Luca Wolput`;
+    $('pd-label').textContent = `${catName(p.category)} / ${typeTag(p)}`;
+    const brandEl = $('pd-brand'); brandEl.textContent = p.brand.toUpperCase();
+    // los nombres largos se ajustan para caber en una línea
+    brandEl.style.fontSize = `min(var(--s1), ${(182 / Math.max(p.brand.length, 1)).toFixed(2)}vw)`;
+    $('pd-title').textContent = tr(p.title);
+
+    const cover = $('pd-cover');
+    cover.className = 'pd-cover';
+    cover.innerHTML = p.cover ? `<img src="${esc(p.cover)}" alt="${esc(p.brand)}">` : tcover(p);
+    const ci = cover.querySelector('img');
+    if (ci) { const mark = () => { if (ci.naturalWidth / ci.naturalHeight < 1.2) cover.classList.add('is-tall'); }; ci.complete ? mark() : ci.addEventListener('load', mark); }
+
+    const rows = [
+      [p.client ? f.client : f.brand, p.client ? tr(p.client) : p.brand],
+      [f.type, `${typeTag(p)}${p.type === 'ongoing' ? '' : ''}`],
+      [f.year, p.year],
+      [f.role, tr(p.role)],
+      [f.deliverable, tr(p.deliverable)]
+    ].filter(r => r[1]);
+    let sheet = rows.map(([k, v]) => `<dt class="small">${esc(tr(k))}</dt><dd>${esc(v)}</dd>`).join('');
+    if (p.data) sheet += `<dt class="small">${esc(tr(p.data_label))}</dt><dd class="is-key">${esc(tr(p.data))}</dd>`;
+    if (p.link) sheet += `<dt class="small">Link</dt><dd><a href="${esc(p.link.url)}" target="_blank" rel="noopener">${esc(tr(p.link.label))}</a></dd>`;
+    $('pd-sheet').innerHTML = sheet;
+
+    const story = [
+      [f.challenge, p.challenge],
+      [f.idea, p.idea],
+      p.next_steps ? [f.next_steps, p.next_steps] : [f.outcome, p.outcome]
+    ].filter(s => s[1]);
+    fill('pd-story', story.map(([k, v]) => `<div data-reveal><span class="small">${esc(tr(k))}</span><p>${esc(tr(v))}</p></div>`).join(''));
+
+    fill('pd-figures', (p.figures || []).map(x => `<div data-reveal><b>${esc(x.value)}</b><span>${esc(tr(x.label))}</span></div>`).join(''));
+
+    fill('pd-video', p.video ? `
+      <span class="small" data-reveal>${esc(tr(f.video))}</span>
+      <div class="pd-video__frame" data-reveal><iframe src="https://www.youtube-nocookie.com/embed/${esc(p.video)}" title="${esc(tr(p.title))}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <a class="small pd-video__link more" href="https://www.youtube.com/watch?v=${esc(p.video)}" target="_blank" rel="noopener">${esc(tr(f.watch))}</a>` : '');
+
+    const g = p.gallery || [];
+    fill('pd-gallery', g.length ? `
+      <span class="small" data-reveal>${esc(tr(f.gallery))}</span>
+      <div class="pd-gallery__grid ${g.length === 1 ? 'is-single' : ''}" id="pd-ggrid">${g.map(x => `
+        <figure data-reveal-img><img src="${esc(x.src)}" alt="${esc(tr(x.caption))}" loading="lazy"><figcaption class="small">${esc(tr(x.caption))}</figcaption></figure>`).join('')}</div>` : '');
+    const gg = $('pd-ggrid');
+    if (gg) { const first = gg.querySelector('img'); const mark = () => { if (first.naturalWidth / first.naturalHeight < 1 && g.length > 1) gg.classList.add('is-tall'); }; first.complete ? mark() : first.addEventListener('load', mark); }
+
+    $('pd-note').textContent = tr(p.note) || '';
+
+    const prev = data.projects[(i - 1 + data.projects.length) % data.projects.length];
+    const next = data.projects[(i + 1) % data.projects.length];
+    $('pd-nav').innerHTML = `
+      <a href="project.html#${esc(prev.id)}"><span class="small">${esc(tr(data.page.prev))}</span><span class="phrase">${esc(prev.brand)}</span></a>
+      <a href="project.html#${esc(next.id)}"><span class="small">${esc(tr(data.page.next))}</span><span class="phrase">${esc(next.brand)}</span></a>`;
+  }
+
+  window.addEventListener('hashchange', () => {
+    if (document.body.classList.contains('page-project')) { window.scrollTo(0, 0); render(); document.querySelectorAll('.pd-hero [data-reveal-img]').forEach(el => el.classList.add('is-in')); }
+    if (document.body.classList.contains('page-projects')) render();
+  });
+
+  function render() { renderCommon(); renderHome(); renderAbout(); renderProjects(); renderProject(); observe(); }
 
   /* ---------- aparición al hacer scroll ---------- */
   const io = 'IntersectionObserver' in window

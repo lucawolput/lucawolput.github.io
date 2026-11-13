@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto | Luca Wolput</title>
+  <meta name="description" content="Proyecto de Luca Wolput.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading page-project">
+  <a class="skip small" href="#main">Saltar al contenido</a>
+
+  <header class="chrome small">
+    <a href="index.html" data-k="chrome.brand"></a>
+    <span class="chrome__hide" data-k="chrome.by"></span>
+    <span class="chrome__hide" data-k="chrome.field"></span>
+    <span class="chrome__hide" data-k="chrome.place"></span>
+    <span class="chrome__right">
+      <span class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="en">EN</button>
+      </span>
+      <button type="button" class="burger" aria-expanded="false" aria-controls="menu">
+        <span data-k="chrome.menu"></span><i aria-hidden="true"><b></b><b></b><b></b></i>
+      </button>
+    </span>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__inner">
+      <div class="menu__top">
+        <span class="small menu__label" data-k="menu.label"></span>
+        <button type="button" class="menu__close small" data-k="chrome.close"></button>
+      </div>
+      <p class="menu__title" data-k="menu.title"></p>
+      <ol class="menu__list" id="menu-list"></ol>
+    </div>
+  </div>
+
+  <main id="main">
+    <article class="pd" id="project">
+      <header class="pd-hero">
+        <a class="small pd-back" href="projects.html" data-p="page.back"></a>
+        <p class="small label" id="pd-label"></p>
+        <h1 class="pd-hero__brand" id="pd-brand"></h1>
+        <p class="phrase pd-hero__title" id="pd-title"></p>
+        <div class="pd-hero__grid">
+          <figure class="pd-cover" id="pd-cover" data-reveal-img></figure>
+          <dl class="pd-sheet" id="pd-sheet"></dl>
+        </div>
+      </header>
+
+      <section class="pd-story" id="pd-story"></section>
+      <section class="pd-figures" id="pd-figures"></section>
+      <section class="pd-video" id="pd-video"></section>
+      <section class="pd-gallery" id="pd-gallery"></section>
+      <p class="pd-note small" id="pd-note"></p>
+
+      <nav class="pd-nav" id="pd-nav"></nav>
+    </article>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+      <div class="contact__card" data-reveal>
+        <div><span class="small label" data-k="contact.label"></span><h2 class="title" data-k="contact.title"></h2></div>
+        <div class="contact__right">
+          <p data-k="contact.text"></p>
+          <div>
+            <a class="contact__mail" id="mail"></a>
+            <a class="contact__li small" id="linkedin" target="_blank" rel="noopener" data-k="contact.linkedin_label"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small"><span data-k="footer.left"></span><span data-k="footer.center"></span><span data-k="footer.right"></span></footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

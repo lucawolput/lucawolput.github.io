@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyectos | Luca Wolput</title>
+  <meta name="description" content="Proyectos de Luca Wolput: publicidad, estrategia de marca, branding y redes sociales.">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading page-projects">
+  <a class="skip small" href="#main">Saltar al contenido</a>
+
+  <header class="chrome small">
+    <a href="index.html" data-k="chrome.brand"></a>
+    <span class="chrome__hide" data-k="chrome.by"></span>
+    <span class="chrome__hide" data-k="chrome.field"></span>
+    <span class="chrome__hide" data-k="chrome.place"></span>
+    <span class="chrome__right">
+      <span class="lang" role="group" aria-label="Idioma / Language">
+        <button type="button" data-lang="es">ES</button>
+        <button type="button" data-lang="en">EN</button>
+      </span>
+      <button type="button" class="burger" aria-expanded="false" aria-controls="menu">
+        <span data-k="chrome.menu"></span><i aria-hidden="true"><b></b><b></b><b></b></i>
+      </button>
+    </span>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true">
+    <div class="menu__inner">
+      <div class="menu__top">
+        <span class="small menu__label" data-k="menu.label"></span>
+        <button type="button" class="menu__close small" data-k="chrome.close"></button>
+      </div>
+      <p class="menu__title" data-k="menu.title"></p>
+      <ol class="menu__list" id="menu-list"></ol>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="pj-head">
+      <div>
+        <span class="small label" data-p="page.label"></span>
+        <h1 class="pj-head__title" data-p="page.title"></h1>
+      </div>
+      <p class="phrase pj-head__intro" data-p="page.intro"></p>
+    </section>
+
+    <nav class="filters" aria-label="Filtro" id="filters"></nav>
+
+    <section class="pj-grid" id="grid" aria-live="polite"></section>
+
+    <!-- Contacto -->
+    <section class="contact" id="contacto">
+      <div class="contact__card" data-reveal>
+        <div><span class="small label" data-k="contact.label"></span><h2 class="title" data-k="contact.title"></h2></div>
+        <div class="contact__right">
+          <p data-k="contact.text"></p>
+          <div>
+            <a class="contact__mail" id="mail"></a>
+            <a class="contact__li small" id="linkedin" target="_blank" rel="noopener" data-k="contact.linkedin_label"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer small"><span data-k="footer.left"></span><span data-k="footer.center"></span><span data-k="footer.right"></span></footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
