@@ -1,42 +1,132 @@
 {
   "page": {
-    "label": { "es": "03 / Proyectos", "en": "03 / Projects" },
-    "title": { "es": "PROYECTOS", "en": "PROJECTS" },
+    "label": {
+      "es": "03 / Proyectos",
+      "en": "03 / Projects"
+    },
+    "title": {
+      "es": "PROYECTOS",
+      "en": "PROJECTS"
+    },
     "intro": {
       "es": "Proyectos reales para marcas y clientes, y propuestas conceptuales para marcas que admiro. Cada uno con lo esencial: el reto, la idea y los datos.",
       "en": "Real projects for brands and clients, and conceptual proposals for brands I admire. Each one with the essentials: the challenge, the idea and the numbers."
     },
-    "all": { "es": "Todos", "en": "All" },
-    "view": { "es": "Ver proyecto", "en": "View project" },
-    "back": { "es": "Todos los proyectos", "en": "All projects" },
-    "prev": { "es": "Anterior", "en": "Previous" },
-    "next": { "es": "Siguiente", "en": "Next" },
+    "all": {
+      "es": "Todos",
+      "en": "All"
+    },
+    "view": {
+      "es": "Ver proyecto",
+      "en": "View project"
+    },
+    "back": {
+      "es": "Todos los proyectos",
+      "en": "All projects"
+    },
+    "prev": {
+      "es": "Anterior",
+      "en": "Previous"
+    },
+    "next": {
+      "es": "Siguiente",
+      "en": "Next"
+    },
     "fields": {
-      "brand": { "es": "Marca", "en": "Brand" },
-      "client": { "es": "Cliente", "en": "Client" },
-      "type": { "es": "Tipo", "en": "Type" },
-      "year": { "es": "Año", "en": "Year" },
-      "role": { "es": "Rol", "en": "Role" },
-      "deliverable": { "es": "Entregable", "en": "Deliverable" },
-      "challenge": { "es": "El reto", "en": "The challenge" },
-      "idea": { "es": "La idea", "en": "The idea" },
-      "outcome": { "es": "Resultado", "en": "Outcome" },
-      "next_steps": { "es": "Próximos pasos", "en": "Next steps" },
-      "figures": { "es": "En cifras", "en": "In numbers" },
-      "gallery": { "es": "Imágenes clave", "en": "Key visuals" },
-      "video": { "es": "El spot", "en": "The spot" },
-      "watch": { "es": "Ver en YouTube", "en": "Watch on YouTube" }
+      "brand": {
+        "es": "Marca",
+        "en": "Brand"
+      },
+      "client": {
+        "es": "Cliente",
+        "en": "Client"
+      },
+      "type": {
+        "es": "Tipo",
+        "en": "Type"
+      },
+      "year": {
+        "es": "Año",
+        "en": "Year"
+      },
+      "role": {
+        "es": "Rol",
+        "en": "Role"
+      },
+      "deliverable": {
+        "es": "Entregable",
+        "en": "Deliverable"
+      },
+      "challenge": {
+        "es": "El reto",
+        "en": "The challenge"
+      },
+      "idea": {
+        "es": "La idea",
+        "en": "The idea"
+      },
+      "outcome": {
+        "es": "Resultado",
+        "en": "Outcome"
+      },
+      "next_steps": {
+        "es": "Próximos pasos",
+        "en": "Next steps"
+      },
+      "figures": {
+        "es": "En cifras",
+        "en": "In numbers"
+      },
+      "gallery": {
+        "es": "Imágenes clave",
+        "en": "Key visuals"
+      },
+      "video": {
+        "es": "El spot",
+        "en": "The spot"
+      },
+      "watch": {
+        "es": "Ver en YouTube",
+        "en": "Watch on YouTube"
+      }
     }
   },
   "categories": [
-    { "id": "publicidad", "name": { "es": "Publicidad", "en": "Advertising" } },
-    { "id": "estrategia", "name": { "es": "Estrategia de marca", "en": "Brand strategy" } },
-    { "id": "branding", "name": { "es": "Branding y redes sociales", "en": "Branding and social media" } }
+    {
+      "id": "publicidad",
+      "name": {
+        "es": "Publicidad",
+        "en": "Advertising"
+      }
+    },
+    {
+      "id": "estrategia",
+      "name": {
+        "es": "Estrategia de marca",
+        "en": "Brand strategy"
+      }
+    },
+    {
+      "id": "branding",
+      "name": {
+        "es": "Branding y redes sociales",
+        "en": "Branding and social media"
+      }
+    }
   ],
   "types": {
-    "real": { "es": "Real", "en": "Real" },
-    "conceptual": { "es": "Conceptual", "en": "Concept" },
-    "ongoing": { "es": "En curso", "en": "Ongoing" }
+    "real": {
+      "es": "Real",
+      "en": "Real"
+    },
+    "conceptual": {
+      "es": "Conceptual",
+      "en": "Concept"
+    },
+    "ongoing": {
+      "es": "En curso",
+      "en": "Ongoing"
+    }
   },
   "projects": [
     {
@@ -45,23 +135,68 @@
       "type": "real",
       "year": "2023",
       "brand": "Lemon & Hijos",
-      "client": { "es": "Lemon & Hijos para el Ajuntament de Barcelona", "en": "Lemon & Hijos for Barcelona City Council" },
-      "title": { "es": "Ara ve Nadal, ara ve Barcelona", "en": "Ara ve Nadal, ara ve Barcelona" },
+      "client": {
+        "es": "Lemon & Hijos para el Ajuntament de Barcelona",
+        "en": "Lemon & Hijos for Barcelona City Council"
+      },
+      "title": {
+        "es": "Ara ve Nadal, ara ve Barcelona",
+        "en": "Ara ve Nadal, ara ve Barcelona"
+      },
       "cover": "assets/img/projects/lemon-hijos.webp",
-      "data_label": { "es": "Resultado", "en": "Result" },
-      "data": { "es": "Más de 43.000 visualizaciones en YouTube", "en": "Over 43,000 views on YouTube" },
-      "role": { "es": "Asistente creativa", "en": "Creative assistant" },
-      "deliverable": { "es": "Storyboard del spot", "en": "Spot storyboard" },
-      "challenge": { "es": "Crear un spot de Navidad de 30 segundos que transmitiera el espíritu de Barcelona en fiestas con una historia cercana y emotiva, usando elementos icónicos de la ciudad como las luces de Passeig de Gràcia o la Fira de Santa Llúcia.", "en": "Create a 30-second Christmas spot that captured Barcelona's festive spirit through a warm, emotional story, using iconic city elements such as the Passeig de Gràcia lights or the Santa Llúcia fair." },
-      "idea": { "es": "Trabajé con el equipo creativo de Lemon & Hijos aportando ideas en la conceptualización y desarrollé el storyboard que sirvió como guía para producir el anuncio del Ajuntament de Barcelona.", "en": "I worked with the Lemon & Hijos creative team, contributing ideas during the concept stage, and developed the storyboard that guided the production of Barcelona City Council's ad." },
-      "outcome": { "es": "El spot se emitió en la campaña de Navidad 2023 y superó las 43.000 visualizaciones en YouTube.", "en": "The spot ran as part of the 2023 Christmas campaign and passed 43,000 views on YouTube." },
+      "data_label": {
+        "es": "Resultado",
+        "en": "Result"
+      },
+      "data": {
+        "es": "Más de 43.000 visualizaciones en YouTube",
+        "en": "Over 43,000 views on YouTube"
+      },
+      "role": {
+        "es": "Asistente creativa",
+        "en": "Creative assistant"
+      },
+      "deliverable": {
+        "es": "Storyboard del spot",
+        "en": "Spot storyboard"
+      },
+      "challenge": {
+        "es": "Crear un spot de Navidad de 30 segundos que transmitiera el espíritu de Barcelona en fiestas con una historia cercana y emotiva, usando elementos icónicos de la ciudad como las luces de Passeig de Gràcia o la Fira de Santa Llúcia.",
+        "en": "Create a 30-second Christmas spot that captured Barcelona's festive spirit through a warm, emotional story, using iconic city elements such as the Passeig de Gràcia lights or the Santa Llúcia fair."
+      },
+      "idea": {
+        "es": "Trabajé con el equipo creativo de Lemon & Hijos aportando ideas en la conceptualización y desarrollé el storyboard que sirvió como guía para producir el anuncio del Ajuntament de Barcelona.",
+        "en": "I worked with the Lemon & Hijos creative team, contributing ideas during the concept stage, and developed the storyboard that guided the production of Barcelona City Council's ad."
+      },
+      "outcome": {
+        "es": "El spot se emitió en la campaña de Navidad 2023 y superó las 43.000 visualizaciones en YouTube.",
+        "en": "The spot ran as part of the 2023 Christmas campaign and passed 43,000 views on YouTube."
+      },
       "figures": [
-        { "value": "43.000+", "label": { "es": "visualizaciones en YouTube", "en": "views on YouTube" } },
-        { "value": "30 s", "label": { "es": "de duración del spot", "en": "spot length" } }
+        {
+          "value": "43.000+",
+          "label": {
+            "es": "visualizaciones en YouTube",
+            "en": "views on YouTube"
+          }
+        },
+        {
+          "value": "30 s",
+          "label": {
+            "es": "de duración del spot",
+            "en": "spot length"
+          }
+        }
       ],
       "video": "TW9Y1WNOxnQ",
       "gallery": [
-        { "src": "assets/img/projects/lemon-hijos-storyboard.webp", "caption": { "es": "Storyboard utilizado como base para la producción del spot", "en": "Storyboard used as the basis for the spot's production" } }
+        {
+          "src": "assets/img/projects/lemon-hijos-storyboard.webp",
+          "caption": {
+            "es": "Storyboard utilizado como base para la producción del spot",
+            "en": "Storyboard used as the basis for the spot's production"
+          }
+        }
       ]
     },
     {
@@ -70,27 +205,96 @@
       "type": "conceptual",
       "year": "2026",
       "brand": "Lacoste",
-      "title": { "es": "Primer Set, Lacoste Barcelona", "en": "Primer Set, Lacoste Barcelona" },
+      "title": {
+        "es": "Primer Set, Lacoste Barcelona",
+        "en": "Primer Set, Lacoste Barcelona"
+      },
       "cover": "assets/img/projects/lacoste-portada.webp",
-      "data_label": { "es": "Objetivo", "en": "Goal" },
-      "data": { "es": "2.000 nuevos Lacoste Members con un pop-up de tenis", "en": "2,000 new Lacoste Members through a tennis pop-up" },
-      "role": { "es": "Estrategia y concepto creativo", "en": "Strategy and creative concept" },
-      "deliverable": { "es": "Propuesta de campaña de 20 páginas", "en": "20-page campaign proposal" },
-      "challenge": { "es": "En Barcelona, el tenis se mira, pero el pádel se juega. El reto: que la ciudad vuelva a jugar al tenis, y que lo haga con Lacoste, la marca con más historia en este deporte.", "en": "In Barcelona, tennis is watched but padel is played. The challenge: get the city playing tennis again, and doing it with Lacoste, the brand with the deepest tennis heritage." },
-      "idea": { "es": "Primer Set: una pista pop-up en Plaça de Catalunya durante 14 días, abierta a todo el mundo. Turnos gratuitos de 10 minutos con entrenador, registro en Lacoste Members para jugar, y un recorrido con bar, espejo para la foto y pro shop con un polo exclusivo.", "en": "Primer Set: a pop-up court in Plaça de Catalunya for 14 days, open to everyone. Free 10-minute sessions with a coach, sign-up to Lacoste Members to play, and a journey through a bar, a photo mirror and a pro shop with an exclusive polo." },
-      "outcome": { "es": "Propuesta completa con estudio de mercado, DAFO, buyer personas, estrategia por fases, presupuesto, retorno estimado y KPIs, como un coste máximo de 30 € por nuevo Member.", "en": "Complete proposal with market research, SWOT, buyer personas, phased strategy, budget, estimated return and KPIs, such as a maximum cost of €30 per new Member." },
+      "data_label": {
+        "es": "Objetivo",
+        "en": "Goal"
+      },
+      "data": {
+        "es": "2.000 nuevos Lacoste Members con un pop-up de tenis",
+        "en": "2,000 new Lacoste Members through a tennis pop-up"
+      },
+      "role": {
+        "es": "Estrategia y concepto creativo",
+        "en": "Strategy and creative concept"
+      },
+      "deliverable": {
+        "es": "Propuesta de campaña de 20 páginas",
+        "en": "20-page campaign proposal"
+      },
+      "challenge": {
+        "es": "En Barcelona, el tenis se mira, pero el pádel se juega. El reto: que la ciudad vuelva a jugar al tenis, y que lo haga con Lacoste, la marca con más historia en este deporte.",
+        "en": "In Barcelona, tennis is watched but padel is played. The challenge: get the city playing tennis again, and doing it with Lacoste, the brand with the deepest tennis heritage."
+      },
+      "idea": {
+        "es": "Primer Set: una pista pop-up en Plaça de Catalunya durante 14 días, abierta a todo el mundo. Turnos gratuitos de 10 minutos con entrenador, registro en Lacoste Members para jugar, y un recorrido con bar, espejo para la foto y pro shop con un polo exclusivo.",
+        "en": "Primer Set: a pop-up court in Plaça de Catalunya for 14 days, open to everyone. Free 10-minute sessions with a coach, sign-up to Lacoste Members to play, and a journey through a bar, a photo mirror and a pro shop with an exclusive polo."
+      },
+      "outcome": {
+        "es": "Propuesta completa con estudio de mercado, DAFO, buyer personas, estrategia por fases, presupuesto, retorno estimado y KPIs, como un coste máximo de 30 € por nuevo Member.",
+        "en": "Complete proposal with market research, SWOT, buyer personas, phased strategy, budget, estimated return and KPIs, such as a maximum cost of €30 per new Member."
+      },
       "figures": [
-        { "value": "2.000", "label": { "es": "nuevos Lacoste Members en Barcelona", "en": "new Lacoste Members in Barcelona" } },
-        { "value": "14", "label": { "es": "días de pista pop-up", "en": "days of pop-up court" } },
-        { "value": "10 %", "label": { "es": "compra en los 3 meses siguientes", "en": "buy within the next 3 months" } }
+        {
+          "value": "2.000",
+          "label": {
+            "es": "nuevos Lacoste Members en Barcelona",
+            "en": "new Lacoste Members in Barcelona"
+          }
+        },
+        {
+          "value": "14",
+          "label": {
+            "es": "días de pista pop-up",
+            "en": "days of pop-up court"
+          }
+        },
+        {
+          "value": "10 %",
+          "label": {
+            "es": "compra en los 3 meses siguientes",
+            "en": "buy within the next 3 months"
+          }
+        }
       ],
       "gallery": [
-        { "src": "assets/img/projects/lacoste-insight.webp", "caption": { "es": "El insight", "en": "The insight" } },
-        { "src": "assets/img/projects/lacoste-idea.webp", "caption": { "es": "La idea", "en": "The idea" } },
-        { "src": "assets/img/projects/lacoste-recorrido.webp", "caption": { "es": "El recorrido de cada asistente", "en": "Each visitor's journey" } },
-        { "src": "assets/img/projects/lacoste-creatividad.webp", "caption": { "es": "Creatividad: Barcelona, vuelve a la pista", "en": "Creative: Barcelona, back on court" } }
+        {
+          "src": "assets/img/projects/lacoste-insight.webp",
+          "caption": {
+            "es": "El insight",
+            "en": "The insight"
+          }
+        },
+        {
+          "src": "assets/img/projects/lacoste-idea.webp",
+          "caption": {
+            "es": "La idea",
+            "en": "The idea"
+          }
+        },
+        {
+          "src": "assets/img/projects/lacoste-recorrido.webp",
+          "caption": {
+            "es": "El recorrido de cada asistente",
+            "en": "Each visitor's journey"
+          }
+        },
+        {
+          "src": "assets/img/projects/lacoste-creatividad.webp",
+          "caption": {
+            "es": "Creatividad: Barcelona, vuelve a la pista",
+            "en": "Creative: Barcelona, back on court"
+          }
+        }
       ],
-      "note": { "es": "Proyecto conceptual. No es un encargo de Lacoste.", "en": "Conceptual project. Not commissioned by Lacoste." }
+      "note": {
+        "es": "Proyecto conceptual. No es un encargo de Lacoste.",
+        "en": "Conceptual project. Not commissioned by Lacoste."
+      }
     },
     {
       "id": "lor-navidad",
@@ -98,25 +302,82 @@
       "type": "conceptual",
       "year": "2026",
       "brand": "L'OR",
-      "title": { "es": "L'OR, un regalo caído del cielo", "en": "L'OR, a gift from the sky" },
+      "title": {
+        "es": "L'OR, un regalo caído del cielo",
+        "en": "L'OR, a gift from the sky"
+      },
       "cover": "assets/img/projects/lor-portada.webp",
-      "data_label": { "es": "Formato", "en": "Format" },
-      "data": { "es": "Spot de Navidad de 30 segundos en siete escenas", "en": "30-second Christmas spot in seven scenes" },
-      "role": { "es": "Concepto y dirección creativa", "en": "Concept and creative direction" },
-      "deliverable": { "es": "Concepto, secuencia y key visuals", "en": "Concept, sequence and key visuals" },
-      "challenge": { "es": "Hacer que una campaña de Navidad de café se sienta mágica y premium sin perder la verdad del producto.", "en": "Make a coffee Christmas campaign feel magical and premium without losing the truth of the product." },
-      "idea": { "es": "\"Un regalo caído del cielo. Esta Navidad, un poco de oro para ti.\" El oro es la magia: un destello baja de una estrella y guía hasta el regalo. El dorado vive en el packaging, no en la taza, y la historia termina en un momento de pausa y calma.", "en": "\"A gift from the sky. This Christmas, a little gold for you.\" Gold is the magic: a sparkle falls from a star and leads to the gift. The gold lives in the packaging, not in the cup, and the story ends in a moment of pause and calm." },
-      "outcome": { "es": "Una secuencia de siete escenas en una sola noche, pensada también en vertical para redes, y el café como protagonista con tres variedades de la gama.", "en": "A seven-scene sequence over a single night, also designed in vertical for social media, with the coffee as the hero across three varieties of the range." },
+      "data_label": {
+        "es": "Formato",
+        "en": "Format"
+      },
+      "data": {
+        "es": "Spot de Navidad de 30 segundos en siete escenas",
+        "en": "30-second Christmas spot in seven scenes"
+      },
+      "role": {
+        "es": "Concepto y dirección creativa",
+        "en": "Concept and creative direction"
+      },
+      "deliverable": {
+        "es": "Concepto, secuencia y key visuals",
+        "en": "Concept, sequence and key visuals"
+      },
+      "challenge": {
+        "es": "Hacer que una campaña de Navidad de café se sienta mágica y premium sin perder la verdad del producto.",
+        "en": "Make a coffee Christmas campaign feel magical and premium without losing the truth of the product."
+      },
+      "idea": {
+        "es": "\"Un regalo caído del cielo. Esta Navidad, un poco de oro para ti.\" El oro es la magia: un destello baja de una estrella y guía hasta el regalo. El dorado vive en el packaging, no en la taza, y la historia termina en un momento de pausa y calma.",
+        "en": "\"A gift from the sky. This Christmas, a little gold for you.\" Gold is the magic: a sparkle falls from a star and leads to the gift. The gold lives in the packaging, not in the cup, and the story ends in a moment of pause and calm."
+      },
+      "outcome": {
+        "es": "Una secuencia de siete escenas en una sola noche, pensada también en vertical para redes, y el café como protagonista con tres variedades de la gama.",
+        "en": "A seven-scene sequence over a single night, also designed in vertical for social media, with the coffee as the hero across three varieties of the range."
+      },
       "figures": [
-        { "value": "30 s", "label": { "es": "de spot", "en": "spot" } },
-        { "value": "7", "label": { "es": "escenas en una sola noche", "en": "scenes in a single night" } }
+        {
+          "value": "30 s",
+          "label": {
+            "es": "de spot",
+            "en": "spot"
+          }
+        },
+        {
+          "value": "7",
+          "label": {
+            "es": "escenas en una sola noche",
+            "en": "scenes in a single night"
+          }
+        }
       ],
       "gallery": [
-        { "src": "assets/img/projects/lor-idea.webp", "caption": { "es": "La idea", "en": "The idea" } },
-        { "src": "assets/img/projects/lor-secuencia.webp", "caption": { "es": "La secuencia", "en": "The sequence" } },
-        { "src": "assets/img/projects/lor-producto.webp", "caption": { "es": "El producto", "en": "The product" } }
+        {
+          "src": "assets/img/projects/lor-idea.webp",
+          "caption": {
+            "es": "La idea",
+            "en": "The idea"
+          }
+        },
+        {
+          "src": "assets/img/projects/lor-secuencia.webp",
+          "caption": {
+            "es": "La secuencia",
+            "en": "The sequence"
+          }
+        },
+        {
+          "src": "assets/img/projects/lor-producto.webp",
+          "caption": {
+            "es": "El producto",
+            "en": "The product"
+          }
+        }
       ],
-      "note": { "es": "Proyecto conceptual no oficial. Imágenes creadas con IA y retocadas.", "en": "Unofficial conceptual project. Images created with AI and retouched." }
+      "note": {
+        "es": "Proyecto conceptual no oficial. Imágenes creadas con IA y retocadas.",
+        "en": "Unofficial conceptual project. Images created with AI and retouched."
+      }
     },
     {
       "id": "emma-pardos",
@@ -124,23 +385,77 @@
       "type": "real",
       "year": "2023",
       "brand": "Emma Pardos Store",
-      "title": { "es": "Ways to wear a scarf", "en": "Ways to wear a scarf" },
+      "title": {
+        "es": "Ways to wear a scarf",
+        "en": "Ways to wear a scarf"
+      },
       "cover": "assets/img/projects/emma-pardos.webp",
-      "data_label": { "es": "Resultado", "en": "Result" },
-      "data": { "es": "Más de 1.000 visualizaciones en Instagram", "en": "Over 1,000 views on Instagram" },
-      "role": { "es": "Asistente de marketing y branding (prácticas)", "en": "Marketing and branding assistant (internship)" },
-      "deliverable": { "es": "Ilustraciones, animaciones y contenido para Instagram", "en": "Illustrations, animations and Instagram content" },
-      "challenge": { "es": "Mantener una comunicación visual coherente con la identidad artesanal de la marca y conectar con su comunidad poniendo en valor las piezas hechas a mano.", "en": "Keep visual communication consistent with the brand's handmade identity and connect with its community by highlighting its handcrafted pieces." },
-      "idea": { "es": "\"Un pañuelo no tiene que llevarse siempre de la misma forma.\" Contenido que enseña no solo el producto final, sino también el proceso creativo detrás de cada colección, con un tono natural y humano.", "en": "\"A scarf doesn't always have to be worn the same way.\" Content showing not only the final product but also the creative process behind each collection, with a natural, human tone." },
-      "outcome": { "es": "Publicaciones que superaron las 1.000 visualizaciones y reforzaron la percepción de autenticidad de la marca.", "en": "Posts that passed 1,000 views and strengthened the brand's sense of authenticity." },
+      "data_label": {
+        "es": "Resultado",
+        "en": "Result"
+      },
+      "data": {
+        "es": "Más de 1.000 visualizaciones en Instagram",
+        "en": "Over 1,000 views on Instagram"
+      },
+      "role": {
+        "es": "Asistente de marketing y branding (prácticas)",
+        "en": "Marketing and branding assistant (internship)"
+      },
+      "deliverable": {
+        "es": "Ilustraciones, animaciones y contenido para Instagram",
+        "en": "Illustrations, animations and Instagram content"
+      },
+      "challenge": {
+        "es": "Mantener una comunicación visual coherente con la identidad artesanal de la marca y conectar con su comunidad poniendo en valor las piezas hechas a mano.",
+        "en": "Keep visual communication consistent with the brand's handmade identity and connect with its community by highlighting its handcrafted pieces."
+      },
+      "idea": {
+        "es": "\"Un pañuelo no tiene que llevarse siempre de la misma forma.\" Contenido que enseña no solo el producto final, sino también el proceso creativo detrás de cada colección, con un tono natural y humano.",
+        "en": "\"A scarf doesn't always have to be worn the same way.\" Content showing not only the final product but also the creative process behind each collection, with a natural, human tone."
+      },
+      "outcome": {
+        "es": "Publicaciones que superaron las 1.000 visualizaciones y reforzaron la percepción de autenticidad de la marca.",
+        "en": "Posts that passed 1,000 views and strengthened the brand's sense of authenticity."
+      },
       "figures": [
-        { "value": "1.000+", "label": { "es": "visualizaciones en Instagram", "en": "views on Instagram" } }
+        {
+          "value": "1.000+",
+          "label": {
+            "es": "visualizaciones en Instagram",
+            "en": "views on Instagram"
+          }
+        }
       ],
       "gallery": [
-        { "src": "assets/img/projects/emma-pardos-ilustracion.webp", "caption": { "es": "Ilustración: formas de llevar un pañuelo", "en": "Illustration: ways to wear a scarf" } },
-        { "src": "assets/img/projects/emma-pardos-serpiente.webp", "caption": { "es": "Ilustración para una de las colecciones", "en": "Illustration for one of the collections" } },
-        { "src": "assets/img/projects/emma-pardos-reels.webp", "caption": { "es": "Reels publicados en Instagram", "en": "Reels published on Instagram" } },
-        { "src": "assets/img/projects/emma-pardos-story.webp", "caption": { "es": "Contenido orgánico para stories", "en": "Organic content for stories" } }
+        {
+          "src": "assets/img/projects/emma-pardos-ilustracion.webp",
+          "caption": {
+            "es": "Ilustración: formas de llevar un pañuelo",
+            "en": "Illustration: ways to wear a scarf"
+          }
+        },
+        {
+          "src": "assets/img/projects/emma-pardos-serpiente.webp",
+          "caption": {
+            "es": "Ilustración para una de las colecciones",
+            "en": "Illustration for one of the collections"
+          }
+        },
+        {
+          "src": "assets/img/projects/emma-pardos-reels.webp",
+          "caption": {
+            "es": "Reels publicados en Instagram",
+            "en": "Reels published on Instagram"
+          }
+        },
+        {
+          "src": "assets/img/projects/emma-pardos-story.webp",
+          "caption": {
+            "es": "Contenido orgánico para stories",
+            "en": "Organic content for stories"
+          }
+        }
       ]
     },
     {
@@ -149,16 +464,49 @@
       "type": "ongoing",
       "year": "2026",
       "brand": "Move Pilates BCN",
-      "title": { "es": "Bienestar en movimiento", "en": "Wellbeing in motion" },
+      "title": {
+        "es": "Bienestar en movimiento",
+        "en": "Wellbeing in motion"
+      },
       "cover": "",
-      "cover_type": { "bg": "#BFE3DC", "fg": "#1F3B38", "accent": "#F5E27A", "word": "MOVE", "line": { "es": "Bienestar en movimiento", "en": "Wellbeing in motion" } },
-      "data_label": { "es": "Estado", "en": "Status" },
-      "data": { "es": "Rebranding en curso", "en": "Rebranding in progress" },
-      "role": { "es": "Redes sociales y branding (freelance)", "en": "Social media and branding (freelance)" },
-      "deliverable": { "es": "Nueva marca, estrategia y cuenta de Instagram", "en": "New brand, strategy and Instagram account" },
-      "challenge": { "es": "Una profesora de pilates de Barcelona necesitaba pasar de dar clases a tener una marca propia: posicionarse en la ciudad, ganar visibilidad y atraer a nuevas personas sin perder a su comunidad actual.", "en": "A Barcelona pilates teacher needed to move from teaching classes to having her own brand: build a position in the city, gain visibility and attract new people without losing her current community." },
-      "idea": { "es": "Move Pilates BCN, con el lema \"Bienestar en movimiento\": un pilates para todas las edades, centrado en sentirse más ágil, en forma y fuerte. Tono wellness, colores frescos y luminosos (limón, aguamarina y crema) y una cuenta de Instagram nueva desde cero.", "en": "Move Pilates BCN, with the line \"Wellbeing in motion\": pilates for all ages, focused on feeling more agile, fit and strong. A wellness tone, fresh and bright colours (lemon, aquamarine and cream) and a brand-new Instagram account." },
-      "next_steps": { "es": "Lanzamiento de la nueva cuenta y primeras métricas de visibilidad y captación. El proyecto se irá actualizando aquí.", "en": "Launch of the new account and first visibility and acquisition metrics. This project will be updated here." },
+      "cover_type": {
+        "bg": "#BFE3DC",
+        "fg": "#1F3B38",
+        "accent": "#F5E27A",
+        "word": "MOVE",
+        "line": {
+          "es": "Bienestar en movimiento",
+          "en": "Wellbeing in motion"
+        }
+      },
+      "data_label": {
+        "es": "Estado",
+        "en": "Status"
+      },
+      "data": {
+        "es": "Rebranding en curso",
+        "en": "Rebranding in progress"
+      },
+      "role": {
+        "es": "Redes sociales y branding (freelance)",
+        "en": "Social media and branding (freelance)"
+      },
+      "deliverable": {
+        "es": "Nueva marca, estrategia y cuenta de Instagram",
+        "en": "New brand, strategy and Instagram account"
+      },
+      "challenge": {
+        "es": "Una profesora de pilates de Barcelona necesitaba pasar de dar clases a tener una marca propia: posicionarse en la ciudad, ganar visibilidad y atraer a nuevas personas sin perder a su comunidad actual.",
+        "en": "A Barcelona pilates teacher needed to move from teaching classes to having her own brand: build a position in the city, gain visibility and attract new people without losing her current community."
+      },
+      "idea": {
+        "es": "Move Pilates BCN, con el lema \"Bienestar en movimiento\": un pilates para todas las edades, centrado en sentirse más ágil, en forma y fuerte. Tono wellness, colores frescos y luminosos (limón, aguamarina y crema) y una cuenta de Instagram nueva desde cero.",
+        "en": "Move Pilates BCN, with the line \"Wellbeing in motion\": pilates for all ages, focused on feeling more agile, fit and strong. A wellness tone, fresh and bright colours (lemon, aquamarine and cream) and a brand-new Instagram account."
+      },
+      "next_steps": {
+        "es": "Lanzamiento de la nueva cuenta y primeras métricas de visibilidad y captación. El proyecto se irá actualizando aquí.",
+        "en": "Launch of the new account and first visibility and acquisition metrics. This project will be updated here."
+      },
       "figures": [],
       "gallery": []
     },
@@ -168,19 +516,64 @@
       "type": "ongoing",
       "year": "2026",
       "brand": "Lens & Words",
-      "title": { "es": "Una revista de marketing en Instagram", "en": "A marketing magazine on Instagram" },
+      "title": {
+        "es": "Una revista de marketing en Instagram",
+        "en": "A marketing magazine on Instagram"
+      },
       "cover": "",
-      "cover_type": { "bg": "#171513", "fg": "#F4F2EE", "accent": "#C9A7AE", "word": "L&W", "line": { "es": "@lensandwords.lw", "en": "@lensandwords.lw" } },
-      "data_label": { "es": "Ritmo", "en": "Pace" },
-      "data": { "es": "3 publicaciones por semana", "en": "3 posts a week" },
-      "role": { "es": "Fundadora y creadora de contenido", "en": "Founder and content creator" },
-      "deliverable": { "es": "Cuenta editorial de Instagram", "en": "Editorial Instagram account" },
-      "challenge": { "es": "Dejar de leer sobre redes sociales y empezar a hacerlas de verdad: entender cómo funcionan los calendarios de contenido, las tendencias y la edición desde dentro.", "en": "Stop reading about social media and actually start doing it: understand content calendars, trends and editing from the inside." },
-      "idea": { "es": "Una cuenta que analiza las campañas y movimientos de marketing que más me interesan, de todos los ámbitos, con estética de revista elegante y un toque divertido. Publiqué el primer post en verano para obligarme a empezar; después vinieron las primeras pruebas de feed hasta encontrar mi estilo y el formato que mejor funciona.", "en": "An account analysing the marketing campaigns and moves I find most interesting, across every field, with an elegant magazine look and a playful touch. I published the first post in summer to push myself to start; then came the first feed tests until I found my style and the format that works best." },
-      "next_steps": { "es": "Ahora publico con constancia tres veces por semana. Las cifras de crecimiento se irán añadiendo aquí.", "en": "I now post consistently three times a week. Growth figures will be added here." },
-      "link": { "url": "https://www.instagram.com/lensandwords.lw/", "label": { "es": "Ver en Instagram", "en": "See on Instagram" } },
+      "cover_type": {
+        "bg": "#171513",
+        "fg": "#F4F2EE",
+        "accent": "#C9A7AE",
+        "word": "L&W",
+        "line": {
+          "es": "@lensandwords.lw",
+          "en": "@lensandwords.lw"
+        }
+      },
+      "data_label": {
+        "es": "Ritmo",
+        "en": "Pace"
+      },
+      "data": {
+        "es": "3 publicaciones por semana",
+        "en": "3 posts a week"
+      },
+      "role": {
+        "es": "Fundadora y creadora de contenido",
+        "en": "Founder and content creator"
+      },
+      "deliverable": {
+        "es": "Cuenta editorial de Instagram",
+        "en": "Editorial Instagram account"
+      },
+      "challenge": {
+        "es": "Dejar de leer sobre redes sociales y empezar a hacerlas de verdad: entender cómo funcionan los calendarios de contenido, las tendencias y la edición desde dentro.",
+        "en": "Stop reading about social media and actually start doing it: understand content calendars, trends and editing from the inside."
+      },
+      "idea": {
+        "es": "Una cuenta que analiza las campañas y movimientos de marketing que más me interesan, de todos los ámbitos, con estética de revista elegante y un toque divertido. Publiqué el primer post en verano para obligarme a empezar; después vinieron las primeras pruebas de feed hasta encontrar mi estilo y el formato que mejor funciona.",
+        "en": "An account analysing the marketing campaigns and moves I find most interesting, across every field, with an elegant magazine look and a playful touch. I published the first post in summer to push myself to start; then came the first feed tests until I found my style and the format that works best."
+      },
+      "next_steps": {
+        "es": "Ahora publico con constancia tres veces por semana. Las cifras de crecimiento se irán añadiendo aquí.",
+        "en": "I now post consistently three times a week. Growth figures will be added here."
+      },
+      "link": {
+        "url": "https://www.instagram.com/lensandwords.lw/",
+        "label": {
+          "es": "Ver en Instagram",
+          "en": "See on Instagram"
+        }
+      },
       "figures": [
-        { "value": "3", "label": { "es": "publicaciones por semana", "en": "posts a week" } }
+        {
+          "value": "3",
+          "label": {
+            "es": "publicaciones por semana",
+            "en": "posts a week"
+          }
+        }
       ],
       "gallery": []
     },
@@ -190,25 +583,82 @@
       "type": "conceptual",
       "year": "2026",
       "brand": "Marc Jacobs",
-      "title": { "es": "Daisy Market", "en": "Daisy Market" },
+      "title": {
+        "es": "Daisy Market",
+        "en": "Daisy Market"
+      },
       "cover": "assets/img/projects/daisy-market.webp",
-      "data_label": { "es": "Formato", "en": "Format" },
-      "data": { "es": "Pop-up de 4 días con siete puestos", "en": "4-day pop-up with seven stalls" },
-      "role": { "es": "Concepto y experiencia de marca", "en": "Concept and brand experience" },
-      "deliverable": { "es": "Propuesta de activación en tienda", "en": "In-store activation proposal" },
-      "challenge": { "es": "Elegir una colonia por sus notas es abstracto: frutos rojos, pera, violeta… son palabras difíciles de imaginar. ¿Y si pudieras oler y escoger los ingredientes antes de elegir la colonia?", "en": "Choosing a fragrance by its notes is abstract: red berries, pear, violet… are hard to imagine. What if you could smell and pick the ingredients before choosing the fragrance?" },
-      "idea": { "es": "Una tienda que se transforma en un mercado para el lanzamiento de verano de Daisy. Siete puestos, uno por ingrediente: coges una cesta, hueles, eliges miniaturas y en el mostrador te entregan la colonia que comparte más ingredientes con tu cesta.", "en": "A store that turns into a market for Daisy's summer launch. Seven stalls, one per ingredient: you take a basket, smell, pick miniatures, and at the counter you receive the fragrance that shares the most ingredients with your basket." },
-      "outcome": { "es": "Propuesta con recorrido, funcionamiento de cada puesto, reglas del juego, referentes como el Paradoxe Scented Market de Prada, métricas y presupuesto orientativo.", "en": "Proposal with the visitor journey, how each stall works, the rules of the game, references such as Prada's Paradoxe Scented Market, metrics and an indicative budget." },
+      "data_label": {
+        "es": "Formato",
+        "en": "Format"
+      },
+      "data": {
+        "es": "Pop-up de 4 días con siete puestos",
+        "en": "4-day pop-up with seven stalls"
+      },
+      "role": {
+        "es": "Concepto y experiencia de marca",
+        "en": "Concept and brand experience"
+      },
+      "deliverable": {
+        "es": "Propuesta de activación en tienda",
+        "en": "In-store activation proposal"
+      },
+      "challenge": {
+        "es": "Elegir una colonia por sus notas es abstracto: frutos rojos, pera, violeta… son palabras difíciles de imaginar. ¿Y si pudieras oler y escoger los ingredientes antes de elegir la colonia?",
+        "en": "Choosing a fragrance by its notes is abstract: red berries, pear, violet… are hard to imagine. What if you could smell and pick the ingredients before choosing the fragrance?"
+      },
+      "idea": {
+        "es": "Una tienda que se transforma en un mercado para el lanzamiento de verano de Daisy. Siete puestos, uno por ingrediente: coges una cesta, hueles, eliges miniaturas y en el mostrador te entregan la colonia que comparte más ingredientes con tu cesta.",
+        "en": "A store that turns into a market for Daisy's summer launch. Seven stalls, one per ingredient: you take a basket, smell, pick miniatures, and at the counter you receive the fragrance that shares the most ingredients with your basket."
+      },
+      "outcome": {
+        "es": "Propuesta con recorrido, funcionamiento de cada puesto, reglas del juego, referentes como el Paradoxe Scented Market de Prada, métricas y presupuesto orientativo.",
+        "en": "Proposal with the visitor journey, how each stall works, the rules of the game, references such as Prada's Paradoxe Scented Market, metrics and an indicative budget."
+      },
       "figures": [
-        { "value": "7", "label": { "es": "puestos, uno por ingrediente", "en": "stalls, one per ingredient" } },
-        { "value": "4", "label": { "es": "días de pop-up", "en": "pop-up days" } }
+        {
+          "value": "7",
+          "label": {
+            "es": "puestos, uno por ingrediente",
+            "en": "stalls, one per ingredient"
+          }
+        },
+        {
+          "value": "4",
+          "label": {
+            "es": "días de pop-up",
+            "en": "pop-up days"
+          }
+        }
       ],
       "gallery": [
-        { "src": "assets/img/projects/daisy-idea.webp", "caption": { "es": "La idea", "en": "The idea" } },
-        { "src": "assets/img/projects/daisy-recorrido.webp", "caption": { "es": "El recorrido", "en": "The journey" } },
-        { "src": "assets/img/projects/daisy-mostrador.webp", "caption": { "es": "El mostrador", "en": "The counter" } }
+        {
+          "src": "assets/img/projects/daisy-idea.webp",
+          "caption": {
+            "es": "La idea",
+            "en": "The idea"
+          }
+        },
+        {
+          "src": "assets/img/projects/daisy-recorrido.webp",
+          "caption": {
+            "es": "El recorrido",
+            "en": "The journey"
+          }
+        },
+        {
+          "src": "assets/img/projects/daisy-mostrador.webp",
+          "caption": {
+            "es": "El mostrador",
+            "en": "The counter"
+          }
+        }
       ],
-      "note": { "es": "Proyecto conceptual. No es un encargo de Marc Jacobs. Imágenes generadas con IA.", "en": "Conceptual project. Not commissioned by Marc Jacobs. AI-generated images." }
+      "note": {
+        "es": "Proyecto conceptual. No es un encargo de Marc Jacobs. Imágenes generadas con IA.",
+        "en": "Conceptual project. Not commissioned by Marc Jacobs. AI-generated images."
+      }
     },
     {
       "id": "soft-landing",
@@ -216,27 +666,96 @@
       "type": "conceptual",
       "year": "2026",
       "brand": "L'Oréal Paris",
-      "title": { "es": "Soft Landing", "en": "Soft Landing" },
+      "title": {
+        "es": "Soft Landing",
+        "en": "Soft Landing"
+      },
       "cover": "assets/img/projects/soft-landing.webp",
-      "data_label": { "es": "Dato de partida", "en": "Starting point" },
-      "data": { "es": "6 de cada 10 encuestadas se retocan en menos de 2 minutos", "en": "6 in 10 women surveyed touch up in under 2 minutes" },
-      "role": { "es": "Investigación, producto y estrategia de lanzamiento", "en": "Research, product and launch strategy" },
-      "deliverable": { "es": "Concepto de producto y plan de lanzamiento", "en": "Product concept and launch plan" },
-      "challenge": { "es": "Cada día aterrizas en algún sitio: una entrevista, una cena, una primera cita. En una encuesta propia a 30 mujeres, 24 llevaban maquillaje en el bolso para retocarse. No falta maquillaje: falta uno hecho para ese momento.", "en": "Every day you land somewhere: an interview, a dinner, a first date. In my own survey of 30 women, 24 carried make-up in their bag to touch up. Make-up isn't missing: one made for that moment is." },
-      "idea": { "es": "Soft Landing, la línea mini para llegar bien: un neceser translúcido con paleta de seis tonos, bálsamo con color y máscara de pestañas, con una guía de uso en cuatro pasos y dos minutos, todo con lenguaje de aeropuerto.", "en": "Soft Landing, the mini line to arrive looking good: a translucent pouch with a six-shade palette, tinted balm and mascara, with a four-step, two-minute guide, all in airport language." },
-      "outcome": { "es": "Plan de lanzamiento de 4 meses con pop-up, TikTok Shop y creadoras, objetivos de alcance y un sistema de medición de ventas frente a puntos sin campaña.", "en": "4-month launch plan with a pop-up, TikTok Shop and creators, reach targets and a measurement system comparing sales against stores without the campaign." },
+      "data_label": {
+        "es": "Dato de partida",
+        "en": "Starting point"
+      },
+      "data": {
+        "es": "6 de cada 10 encuestadas se retocan en menos de 2 minutos",
+        "en": "6 in 10 women surveyed touch up in under 2 minutes"
+      },
+      "role": {
+        "es": "Investigación, producto y estrategia de lanzamiento",
+        "en": "Research, product and launch strategy"
+      },
+      "deliverable": {
+        "es": "Concepto de producto y plan de lanzamiento",
+        "en": "Product concept and launch plan"
+      },
+      "challenge": {
+        "es": "Cada día aterrizas en algún sitio: una entrevista, una cena, una primera cita. En una encuesta propia a 30 mujeres, 24 llevaban maquillaje en el bolso para retocarse. No falta maquillaje: falta uno hecho para ese momento.",
+        "en": "Every day you land somewhere: an interview, a dinner, a first date. In my own survey of 30 women, 24 carried make-up in their bag to touch up. Make-up isn't missing: one made for that moment is."
+      },
+      "idea": {
+        "es": "Soft Landing, la línea mini para llegar bien: un neceser translúcido con paleta de seis tonos, bálsamo con color y máscara de pestañas, con una guía de uso en cuatro pasos y dos minutos, todo con lenguaje de aeropuerto.",
+        "en": "Soft Landing, the mini line to arrive looking good: a translucent pouch with a six-shade palette, tinted balm and mascara, with a four-step, two-minute guide, all in airport language."
+      },
+      "outcome": {
+        "es": "Plan de lanzamiento de 4 meses con pop-up, TikTok Shop y creadoras, objetivos de alcance y un sistema de medición de ventas frente a puntos sin campaña.",
+        "en": "4-month launch plan with a pop-up, TikTok Shop and creators, reach targets and a measurement system comparing sales against stores without the campaign."
+      },
       "figures": [
-        { "value": "3 M", "label": { "es": "de alcance en redes como objetivo", "en": "social reach target" } },
-        { "value": "40", "label": { "es": "creadoras", "en": "creators" } },
-        { "value": "5.000", "label": { "es": "visitas al pop-up", "en": "pop-up visits" } }
+        {
+          "value": "3 M",
+          "label": {
+            "es": "de alcance en redes como objetivo",
+            "en": "social reach target"
+          }
+        },
+        {
+          "value": "40",
+          "label": {
+            "es": "creadoras",
+            "en": "creators"
+          }
+        },
+        {
+          "value": "5.000",
+          "label": {
+            "es": "visitas al pop-up",
+            "en": "pop-up visits"
+          }
+        }
       ],
       "gallery": [
-        { "src": "assets/img/projects/soft-landing-dato.webp", "caption": { "es": "El dato", "en": "The insight" } },
-        { "src": "assets/img/projects/soft-landing-kit.webp", "caption": { "es": "El kit", "en": "The kit" } },
-        { "src": "assets/img/projects/soft-landing-embarque.webp", "caption": { "es": "La experiencia: embarque", "en": "The experience: boarding" } },
-        { "src": "assets/img/projects/soft-landing-objetivos.webp", "caption": { "es": "Objetivos", "en": "Goals" } }
+        {
+          "src": "assets/img/projects/soft-landing-dato.webp",
+          "caption": {
+            "es": "El dato",
+            "en": "The insight"
+          }
+        },
+        {
+          "src": "assets/img/projects/soft-landing-kit.webp",
+          "caption": {
+            "es": "El kit",
+            "en": "The kit"
+          }
+        },
+        {
+          "src": "assets/img/projects/soft-landing-embarque.webp",
+          "caption": {
+            "es": "La experiencia: embarque",
+            "en": "The experience: boarding"
+          }
+        },
+        {
+          "src": "assets/img/projects/soft-landing-objetivos.webp",
+          "caption": {
+            "es": "Objetivos",
+            "en": "Goals"
+          }
+        }
       ],
-      "note": { "es": "Proyecto conceptual. No es un encargo de L'Oréal Paris.", "en": "Conceptual project. Not commissioned by L'Oréal Paris." }
+      "note": {
+        "es": "Proyecto conceptual. No es un encargo de L'Oréal Paris.",
+        "en": "Conceptual project. Not commissioned by L'Oréal Paris."
+      }
     },
     {
       "id": "bon-gra",
@@ -244,22 +763,67 @@
       "type": "conceptual",
       "year": "2026",
       "brand": "Bon Grà",
-      "title": { "es": "Café de sempre, galetes de l'àvia", "en": "Café de sempre, galetes de l'àvia" },
+      "title": {
+        "es": "Café de sempre, galetes de l'àvia",
+        "en": "Café de sempre, galetes de l'àvia"
+      },
       "cover": "assets/img/projects/bon-gra.webp",
-      "data_label": { "es": "Entregable", "en": "Deliverable" },
-      "data": { "es": "Identidad de marca y feed de Instagram", "en": "Brand identity and Instagram feed" },
-      "role": { "es": "Branding y contenido", "en": "Branding and content" },
-      "deliverable": { "es": "Identidad visual y piezas para Instagram", "en": "Visual identity and Instagram pieces" },
-      "challenge": { "es": "Crear la marca de una cafetería de galletas en Gràcia que transmitiera tradición y cercanía, y que funcionara igual de bien en la tienda que en Instagram.", "en": "Create the brand for a cookie café in Gràcia that conveys tradition and warmth, and works as well in store as on Instagram." },
-      "idea": { "es": "Bon Grà, la galleta de la abuela y un buen café: un logotipo con una galleta sonriente, rojo y crema como colores de marca, y un tono en catalán cálido y sencillo. \"Perquè hi ha coses que no cal canviar.\"", "en": "Bon Grà, grandma's cookie and a good coffee: a logo with a smiling cookie, red and cream as brand colours, and a warm, simple tone in Catalan. \"Because some things don't need to change.\"" },
-      "outcome": { "es": "Sistema visual aplicado al perfil de Instagram, la historia de la marca y las piezas de lanzamiento de sabores.", "en": "Visual system applied to the Instagram profile, the brand story and the flavour launch posts." },
+      "data_label": {
+        "es": "Entregable",
+        "en": "Deliverable"
+      },
+      "data": {
+        "es": "Identidad de marca y feed de Instagram",
+        "en": "Brand identity and Instagram feed"
+      },
+      "role": {
+        "es": "Branding y contenido",
+        "en": "Branding and content"
+      },
+      "deliverable": {
+        "es": "Identidad visual, piezas para Instagram y carta",
+        "en": "Visual identity, Instagram pieces and menu"
+      },
+      "challenge": {
+        "es": "Crear la marca de una cafetería de galletas en Gràcia que transmitiera tradición y cercanía, y que funcionara igual de bien en la tienda que en Instagram.",
+        "en": "Create the brand for a cookie café in Gràcia that conveys tradition and warmth, and works as well in store as on Instagram."
+      },
+      "idea": {
+        "es": "Bon Grà, la galleta de la abuela y un buen café: un logotipo con una galleta sonriente, rojo y crema como colores de marca, y un tono en catalán cálido y sencillo. \"Perquè hi ha coses que no cal canviar.\"",
+        "en": "Bon Grà, grandma's cookie and a good coffee: a logo with a smiling cookie, red and cream as brand colours, and a warm, simple tone in Catalan. \"Because some things don't need to change.\""
+      },
+      "outcome": {
+        "es": "Sistema visual aplicado al perfil de Instagram, la historia de la marca, el lanzamiento de sabores y la carta de la cafetería.",
+        "en": "Visual system applied to the Instagram profile, the brand story, the flavour launches and the café's menu."
+      },
       "figures": [],
       "gallery": [
-        { "src": "assets/img/projects/bon-gra-historia.webp", "caption": { "es": "La nostra història", "en": "Our story" } },
-        { "src": "assets/img/projects/bon-gra-sabors.webp", "caption": { "es": "Los sabores", "en": "The flavours" } },
-        { "src": "assets/img/projects/bon-gra-llimona.webp", "caption": { "es": "Lanzamiento: nuevo sabor de limón", "en": "Launch: new lemon flavour" } }
+        {
+          "src": "assets/img/projects/bon-gra-historia.webp",
+          "caption": {
+            "es": "La nostra història",
+            "en": "Our story"
+          }
+        },
+        {
+          "src": "assets/img/projects/bon-gra-xocolata.webp",
+          "caption": {
+            "es": "Lanzamiento: nuevo sabor de chocolate con sal",
+            "en": "Launch: new salted chocolate flavour"
+          }
+        },
+        {
+          "src": "assets/img/projects/bon-gra-menu.webp",
+          "caption": {
+            "es": "La carta y los horarios",
+            "en": "Menu and opening hours"
+          }
+        }
       ],
-      "note": { "es": "Marca conceptual creada por Luca Wolput.", "en": "Conceptual brand created by Luca Wolput." }
+      "note": {
+        "es": "Marca conceptual creada por Luca Wolput.",
+        "en": "Conceptual brand created by Luca Wolput."
+      }
     }
   ]
 }
