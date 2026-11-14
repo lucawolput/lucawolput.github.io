@@ -112,6 +112,13 @@
         "es": "Branding y redes sociales",
         "en": "Branding and social media"
       }
+    },
+    {
+      "id": "email",
+      "name": {
+        "es": "Email marketing",
+        "en": "Email marketing"
+      }
     }
   ],
   "types": {
@@ -788,6 +795,89 @@
       "note": {
         "es": "Proyecto conceptual. No es un encargo de L'Oréal Paris.",
         "en": "Conceptual project. Not commissioned by L'Oréal Paris."
+      }
+    },
+    {
+      "id": "dfyne-email",
+      "category": "email",
+      "type": "conceptual",
+      "year": "2026",
+      "brand": "DFYNE",
+      "title": {
+        "es": "Always with you",
+        "en": "Always with you"
+      },
+      "cover": "assets/img/projects/dfyne-email.webp",
+      "data_label": {
+        "es": "Punto de partida",
+        "en": "Starting point"
+      },
+      "data": {
+        "es": "Mi primer email y mi primer diseño en Figma",
+        "en": "My first email and my first design in Figma"
+      },
+      "role": {
+        "es": "Concepto, copy y diseño del email",
+        "en": "Concept, copy and email design"
+      },
+      "deliverable": {
+        "es": "Email de lanzamiento de colección",
+        "en": "Collection launch email"
+      },
+      "challenge": {
+        "es": "DFYNE vende ropa de entreno, pero el entreno compite con todo lo demás del día: reuniones, emails, entregas. El reto es que la nueva colección se sienta parte del día y no algo que se deja para después.",
+        "en": "DFYNE sells training wear, but training competes with everything else in the day: meetings, emails, deadlines. The challenge is to make the new collection feel part of the day, not something left for later."
+      },
+      "idea": {
+        "es": "Llevar al email el concepto «Always with you», con la bolsa como hilo conductor. Abre con lo que llevas dentro (portátil, libreta y el top de DFYNE), sigue con «What's in the bag» y tres productos de la colección, una frase de marca sobre fondo negro y un cierre corto: «Tomorrow's set is waiting».",
+        "en": "Bring the 'Always with you' concept into the inbox, with the bag as the common thread. It opens with what you carry (laptop, notebook and the DFYNE top), moves on to 'What's in the bag' with three products from the collection, a brand line on black and a short close: 'Tomorrow's set is waiting'."
+      },
+      "next_steps": {
+        "es": "Actualmente estoy aprendiendo y practicando email marketing y Figma. El siguiente paso es convertir este email en una secuencia (bienvenida, lanzamiento y recordatorio) y aprender a medir aperturas y clics.",
+        "en": "I'm currently learning and practising email marketing and Figma. The next step is to turn this email into a sequence (welcome, launch and reminder) and learn to measure opens and clicks."
+      },
+      "figures": [
+        {
+          "value": "3",
+          "label": {
+            "es": "productos de la colección",
+            "en": "products from the collection"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "es": "llamadas a la acción",
+            "en": "calls to action"
+          }
+        }
+      ],
+      "gallery": [
+        {
+          "src": "assets/img/projects/dfyne-email-apertura.webp",
+          "caption": {
+            "es": "Apertura y mensaje",
+            "en": "Opening and message"
+          }
+        },
+        {
+          "src": "assets/img/projects/dfyne-email-productos.webp",
+          "caption": {
+            "es": "What's in the bag",
+            "en": "What's in the bag"
+          }
+        },
+        {
+          "src": "assets/img/projects/dfyne-email-cierre.webp",
+          "caption": {
+            "es": "Frase de marca y cierre",
+            "en": "Brand line and close"
+          }
+        }
+      ],
+      "note": {
+        "es": "Proyecto conceptual de práctica. No es una comunicación oficial de DFYNE.",
+        "en": "Conceptual practice project. Not an official DFYNE communication."
       }
     },
     {

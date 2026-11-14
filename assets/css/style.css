@@ -178,8 +178,8 @@ body.menu-open { overflow: hidden; }
 .contact__card { width: min(1080px, 100%); display: grid; grid-template-columns: 1.1fr 1fr; gap: 56px; padding: clamp(32px, 3.9vw, 56px); background: var(--garnet); color: var(--paper); box-shadow: 0 50px 70px -40px rgba(0, 0, 0, .6); }
 .contact__card .label { color: #E9C9CF; }
 @media (max-width: 640px) { .contact__card .title { font-size: min(var(--s2), 16.5vw); } .contact__card > * { min-width: 0; } }
-.contact__right { display: grid; align-content: space-between; gap: 30px; }
-.contact__mail { display: inline-block; font: italic 300 var(--s3)/1.1 var(--serif); background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; padding-bottom: 4px; transition: background-size .6s var(--ease); white-space: nowrap; }
+.contact__right { min-width: 0; display: grid; align-content: space-between; gap: 30px; }
+.contact__mail { display: inline-block; font: italic 300 clamp(20px, 2.2vw, 32px)/1.1 var(--serif); background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; padding-bottom: 4px; transition: background-size .6s var(--ease); white-space: nowrap; }
 .contact__mail:hover { background-size: 0 1px; background-position: 100% 100%; }
 .contact__li { display: block; margin-top: 16px; opacity: .85; transition: opacity .3s; }
 .contact__li:hover { opacity: 1; }
